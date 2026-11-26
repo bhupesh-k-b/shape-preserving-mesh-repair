@@ -1,0 +1,210 @@
+{
+  "attempted": 29,
+  "verified": 5,
+  "automatic_coverage": 0.1724137931034483,
+  "reference_labeled_outputs": 0,
+  "reference_correct": 0,
+  "statuses": {
+    "NEEDS_REVIEW": 20,
+    "TIMEOUT": 4,
+    "VERIFIED_REPAIRED": 2,
+    "VERIFIED_UNCHANGED": 3
+  },
+  "manifest": [
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/67050.stl",
+      "sha256": "574a561b0cd523414313104662ec3ab5b33d44cb39f556cefb730c5d986d88de",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/1368070.stl",
+      "sha256": "c77bc5a3ed11337139a77298eaee4b2dc2f12ef3cd5452490e29cfeb1078bfcf",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/b1.stl",
+      "sha256": "38768236f3461e11f722811a4ad1dbc999b339217e888309141a1d3f52940682",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/leo_A_stalk_3.stl",
+      "sha256": "b3978a74cdc8610e206e58ef41d92b9d7cedb86ed24593f77292ac38d8f02c7d",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/100030.stl",
+      "sha256": "52c9b8596eb7df94ebef0e0e090c439a48826655c6ebcb45c60092691901ed17",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/extreme.stl",
+      "sha256": "2e6fb40b5365c7f5b0e55558b51f3019114abedc801852487b4273d182b22c51",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/37416.stl",
+      "sha256": "620ff45a52d0910b6a954f3206b879037f4b4ad5afccdc046a5c8d6c8d5f640d",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/49874.stl",
+      "sha256": "429789c0c8c79f3ab725a85f6a110922eb5f14eac71ff489c09434b21825d01d",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/73863.stl",
+      "sha256": "3ef53e301850955bf48d29c361811526be0d390607cb1a37b7754284daa5c3e0",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/minotaur_B_fist_smash_2.stl",
+      "sha256": "3dcb32b92cb4c04556d4d5d09f8ee77145279c9266b6c114d408efc8e17c679c",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/test10.stl",
+      "sha256": "93e60c26402c06048d60ef4f69dc2803c2ee4e9f9ec97ebfd82b233bdb014467",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/benchmark.stl",
+      "sha256": "a2633530ca63ea84f41508f36e490ab4cd7960c8fe69d3a94b0bd706ab3e0dd1",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/106610.stl",
+      "sha256": "5095e8bc8bef56cf28322ea07909ce10c5946ef008d6cc6c001e24131fafc06d",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/99736 copy.stl",
+      "sha256": "26038829e21d01f16f0b2c980ecfee1a6ba2d5743070ac773d5b5287382eaa0f",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/131500.stl",
+      "sha256": "5dc5eea2e4f37fc6fe3b56b56bc880ebc1e76e3fe9b50351b00849c3004b9b55",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/Plane_lower.stl",
+      "sha256": "765e0963d078c7aeb94ceba1d98eb5edc865fc56857b9ddbf3c4e395979a65d7",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/squirtle.stl",
+      "sha256": "0ae2a9a65f7246c35d73c6e9284fca521305e4a5ddb5a891c8ec1ead61cdf1e9",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/100029.stl",
+      "sha256": "24bf46eb22e100337fb7b07a98db264e4d68918bae21c068c9440c9a759f9a5c",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/49416.stl",
+      "sha256": "d7a4d8e653e24cd3655a9a595f6e21cc5e6baa5fcd06fe3c9958baeced591e5c",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/99736.stl",
+      "sha256": "a96d5b597e4a233b5b958ddbc96dad611b29cc7e41cb89e26ac8073f8e874373",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/104647.stl",
+      "sha256": "8947ede3098a14509e412f98f58fe426defc8680c2b84a9f5b41c937aa70d9e6",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/90276.stl",
+      "sha256": "2b0e462c767f87276f504bf0a0fe21d88c62695a6477a2d1544b086ee794e7d5",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/101952.stl",
+      "sha256": "fccaa59438cfe800ccd413325586c1ff92299bfcd771f74a71c58972e62e333d",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/Non_Planar_Test.stl",
+      "sha256": "73c46a58c14e96742034e72b11a617f731a310574732fb4dd3eedd983858f404",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/kame_A.stl",
+      "sha256": "d8dc394fa1a9f5b1655934ac58407a03be7acbd973cf25ced7dd0adb739a534c",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/82055.stl",
+      "sha256": "4428a72845a5f27f96fef49a6ba93c36824692e54d9dcfaf05af642cb5e8eb86",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/83642.stl",
+      "sha256": "7a163fbec9d3021e6ff58866e962dbac705954e8cadaff107c6e37ae9613a31f",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/1004824.stl",
+      "sha256": "d3741375b9ecef6955513b1bb33e2fc0d948d4a31733383ff6aee40d105d0df1",
+      "reference": null
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/data/test_meshes/Chair.stl",
+      "sha256": "61d8eed918ade9c26887ba768f28195172bb0478a2f0f25f668a7ef08161ca04",
+      "reference": null
+    }
+  ],
+  "runtime": {
+    "python": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "packages": {
+      "numpy": "2.4.4",
+      "numpy-stl": "3.2.0",
+      "scipy": "1.17.1",
+      "trimesh": "4.12.2",
+      "manifold3d": "3.4.1"
+    },
+    "source_sha256": {
+      "src/README.py": "da8b9b38321c1bb26d50a871e3f3527b4349bcf804880b1da5efa1ddb3a42364",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/core/backend_worker.py": "dd567f7820bc7f15e45589f184b229e521667c5f00e66d783b4d5fc42884f00f",
+      "src/core/geometry_backend.py": "0e63886764ad005be5e3f32096871d0d1f9e2e4aaef8115745b3cd80ea1ac9b7",
+      "src/core/initial_cleanup_engine.py": "18c0c8eaa3c6bafca53a532d4c5a8f0eaf2c78ae53ade85dde6c87ce34176f74",
+      "src/core/mesh_analyzer.py": "a38625326bb53276286a55ae2296411e58831cbc431aaaa3eebf621a7f7863f3",
+      "src/core/mesh_io.py": "71d7f63b39e684f9c4e531baa31850b0d254ddf71686305b86a3aaf9ae2fbdfa",
+      "src/core/pipeline_worker.py": "389594a2f65d96204063a2cf6333c0420b538c90cea39ec5ecef0eec3344dcd8",
+      "src/core/repair_backends.py": "1558f54d87f8cba5538b4f21f13bad7191f055e8b3e3d32eb333b598db276044",
+      "src/core/repair_config.py": "4b728ad065649e3d17894e8b4f07a84199e13110cedb3c23f42fb12f3de09b4c",
+      "src/core/repair_utils.py": "7a90a8b3dea90dadfa172df8b52b2b93cf71ef0667b02d81b493d0d10029c56d",
+      "src/core/topology_cache.py": "d9fbf12cd177b7c8cca4708b5d2a12d0a9478e4e92e28c8c1f6a7a9e579e558e",
+      "src/core/validation.py": "72fd3379e823913e69f6c700997a3656fa9c074fc90af54c3689c9aea8953750",
+      "src/pipelines/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/pipelines/archive/mesh_repair_char.py": "2857749d3a5c66a32db5ceb835ff2bfab34ac355a594fa8f71574956421c0c7a",
+      "src/pipelines/mesh_repair_initial.py": "41cd064a34b26218bd4c318e397caa27fb95cc810c4c6b914a0eafdbd8ca427a",
+      "src/pipelines/mesh_repair_pipeline.py": "60990b32904610139754c064af94b7a542490793b99570ba0b84da4ab993f970",
+      "src/routines/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/routines/repair_degenerates.py": "474f4a37f3a47385a70c0b6cad2346479603054f4ba0cd49d185da2fc66688ec",
+      "src/routines/repair_holes.py": "bdbd48ae0d838b8d593729945c45e311631c251111b0e4bcd69280b6813713ec",
+      "src/routines/repair_mobius.py": "f252bd7bc7846d771969f7790b3bd0edffed2ac0f3de492241b77555823820ea",
+      "src/routines/repair_nonmanifold.py": "bc802f86df5897c2ed4f5ecd739193e1ee0b7b9394e4ba6be953ef23292bae7c",
+      "src/routines/repair_normals.py": "5058df493f6414f99e75ef56c2b6f96427a8cb566487462f72916f87229210a3",
+      "src/routines/repair_shell_union.py": "c766bced6929b74dca15e6d489f55578051d4573fcdfabe078169e46453bae25",
+      "src/routines/repair_topology_separation.py": "b0430a7a5052b9785d50990656c178c6c570b649d26bbed7956cf4a742094a82",
+      "src/routines/repair_welding.py": "9b5fea02b3a526605d353b27d2d493c2c85e0b716c2b34f0e4e799c696a9c4fa",
+      "src/routines/repair_winding.py": "daefc4577566f6438d8d06e0adfa3d61c269bdd9f2d568b3935a4f9db8c9953d",
+      "src/scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/scripts/evaluate_dataset.py": "546101a25412d23533c4ce7a1f8c2a21678c2fe0d5a5f11c791d387e0decb620",
+      "src/scripts/evaluate_thingi10k.py": "b88786f71a450fdecd67a26fe196011d1de373d446bf2b9ce3da2ccfef6e4c96",
+      "src/scripts/evaluate_thingi10k_hf.py": "6fc45855736e12d58ee31c682d02e631830e70b81bfafce2585661704d538652",
+      "src/scripts/generate_repair_benchmark.py": "6466052840ea9f65fccd1041966afb121fc1882312a17b96c1329f173354575d",
+      "src/test_mesh_repair_pipeline.py": "f9add225a93e0e0a585f2484987a05f7ec8e8bb9d7c8dc25dc8a96d94c84a406",
+      "main.py": "865e98d6e8c96e11c01dcc3bc935ed9a5daf5e0cc745a1fe72c5a6161950fcd6",
+      "native/geometry_worker.cpp": "d9ac1ec39258babbebf4cfe0ba4646bc10b080b3f2046076151f9a480254a90c"
+    },
+    "geometry_worker_sha256": "d5820524da54fc9883391a60d972fd2d95205849d71b6e356ed4cb0d1617060e"
+  },
+  "interpretation": "Coverage verifies explicit constraints. It is not recovery accuracy without a labeled intended reference."
+}

@@ -1,0 +1,33 @@
+{
+  "foundation": {
+    "attempted": 18,
+    "verified": 18,
+    "reference_matches": 18,
+    "median_seconds": 1.1475,
+    "output_face_counts": [
+      12,
+      166,
+      246,
+      582
+    ],
+    "strategies": [
+      "CGAL-autorefine-local",
+      "Manifold64-boolean"
+    ],
+    "maximum_new_or_retriangulated_area": 2.0000304580894412e-14
+  },
+  "current": {
+    "attempted": 18,
+    "verified": 18,
+    "reference_matches": 18,
+    "median_seconds": 0.67,
+    "output_face_counts": [
+      12
+    ],
+    "strategies": [
+      "CGAL-covered-coplanar-cleanup"
+    ],
+    "maximum_new_or_retriangulated_area": 0.0
+  },
+  "interpretation": "18 correlated targeted cube-overlay cases, tested on the same machine concurrently with real-mesh evaluation. Both Python versions used the current CGAL checker binary; existing native actions are unchanged. Timings are development observations, not an isolated speed guarantee."
+}

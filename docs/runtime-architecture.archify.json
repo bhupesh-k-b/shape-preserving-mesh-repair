@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Advanced Mesh Repairing \u00b7 Runtime Architecture",
+    "locale": "en",
+    "quality_profile": "showcase",
+    "viewBox": [
+      1390,
+      630
+    ]
+  },
+  "components": [
+    {
+      "id": "mesh-input",
+      "type": "external",
+      "label": "Input STL",
+      "sublabel": "Local mesh file",
+      "pos": [
+        40,
+        250
+      ],
+      "size": [
+        180,
+        78
+      ]
+    },
+    {
+      "id": "repair-cli",
+      "type": "backend",
+      "label": "Repair CLI",
+      "sublabel": "main.py \u00b7 local invocation",
+      "pos": [
+        320,
+        250
+      ],
+      "size": [
+        180,
+        78
+      ]
+    },
+    {
+      "id": "initial-cleanup",
+      "type": "backend",
+      "label": "Initial Cleanup",
+      "sublabel": "InitialCleanupPipeline",
+      "pos": [
+        600,
+        250
+      ],
+      "size": [
+        180,
+        78
+      ]
+    },
+    {
+      "id": "advanced-repair",
+      "type": "backend",
+      "label": "Advanced Repair",
+      "sublabel": "MeshRepairPipeline",
+      "pos": [
+        880,
+        250
+      ],
+      "size": [
+        180,
+        78
+      ]
+    },
+    {
+      "id": "repair-artifacts",
+      "type": "external",
+      "label": "Output STL + Logs",
+      "sublabel": "Local files / stdout",
+      "pos": [
+        1160,
+        250
+      ],
+      "size": [
+        180,
+        78
+      ]
+    },
+    {
+      "id": "remote-dataset",
+      "type": "external",
+      "label": "Thingi10K",
+      "sublabel": "Hugging Face \u00b7 optional",
+      "pos": [
+        40,
+        60
+      ],
+      "size": [
+        180,
+        78
+      ]
+    },
+    {
+      "id": "batch-evaluator",
+      "type": "backend",
+      "label": "Batch Evaluators",
+      "sublabel": "src/scripts \u00b7 optional",
+      "pos": [
+        320,
+        60
+      ],
+      "size": [
+        180,
+        78
+      ]
+    },
+    {
+      "id": "repair-settings",
+      "type": "backend",
+      "label": "RepairConfig",
+      "sublabel": "INI defaults / --adaptive",
+      "pos": [
+        320,
+        440
+      ],
+      "size": [
+        180,
+        78
+      ]
+    },
+    {
+      "id": "mesh-analysis",
+      "type": "backend",
+      "label": "Mesh Analyzer",
+      "sublabel": "MeshData + defect checks",
+      "pos": [
+        600,
+        440
+      ],
+      "size": [
+        180,
+        78
+      ]
+    },
+    {
+      "id": "repair-routines",
+      "type": "backend",
+      "label": "Repair Routines",
+      "sublabel": "Topology / winding / holes",
+      "pos": [
+        880,
+        440
+      ],
+      "size": [
+        180,
+        78
+      ]
+    },
+    {
+      "id": "geometry-libraries",
+      "type": "external",
+      "label": "Geometry Libraries",
+      "sublabel": "NumPy \u00b7 numpy-stl \u00b7 SciPy",
+      "pos": [
+        1160,
+        440
+      ],
+      "size": [
+        180,
+        78
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "security-group",
+      "label": "Application code \u00b7 one Python repair process",
+      "wraps": [
+        "repair-cli",
+        "initial-cleanup",
+        "advanced-repair",
+        "repair-settings",
+        "mesh-analysis",
+        "repair-routines"
+      ],
+      "pad": 30
+    },
+    {
+      "kind": "security-group",
+      "label": "Remote network trust",
+      "wraps": [
+        "remote-dataset"
+      ],
+      "pad": 25
+    },
+    {
+      "kind": "security-group",
+      "label": "Untrusted mesh bytes",
+      "wraps": [
+        "mesh-input"
+      ],
+      "pad": 25
+    },
+    {
+      "kind": "region",
+      "label": "Operator filesystem / console",
+      "wraps": [
+        "repair-artifacts"
+      ],
+      "pad": 25
+    },
+    {
+      "kind": "security-group",
+      "label": "Third-party code trust",
+      "wraps": [
+        "geometry-libraries"
+      ],
+      "pad": 25
+    }
+  ],
+  "connections": [
+    {
+      "id": "input-path",
+      "from": "mesh-input",
+      "to": "repair-cli",
+      "label": "STL path",
+      "variant": "emphasis"
+    },
+    {
+      "id": "initial-call",
+      "from": "repair-cli",
+      "to": "initial-cleanup",
+      "label": "repair()",
+      "variant": "emphasis"
+    },
+    {
+      "id": "stage-handoff",
+      "from": "initial-cleanup",
+      "to": "advanced-repair",
+      "label": "temp STL",
+      "variant": "emphasis"
+    },
+    {
+      "id": "persist-result",
+      "from": "advanced-repair",
+      "to": "repair-artifacts",
+      "label": "write / reload",
+      "variant": "emphasis"
+    },
+    {
+      "id": "dataset-fetch",
+      "from": "remote-dataset",
+      "to": "batch-evaluator",
+      "label": "HTTPS",
+      "variant": "dashed"
+    },
+    {
+      "id": "batch-launch",
+      "from": "batch-evaluator",
+      "to": "repair-cli",
+      "label": "subprocess",
+      "variant": "dashed",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "labelDy": 24
+    },
+    {
+      "id": "load-config",
+      "from": "repair-cli",
+      "to": "repair-settings",
+      "label": "read INI",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "labelDy": 24
+    },
+    {
+      "id": "analyze-mesh",
+      "from": "advanced-repair",
+      "to": "mesh-analysis",
+      "label": "analyze STL",
+      "fromSide": "bottom",
+      "toSide": "right"
+    },
+    {
+      "id": "execute-routines",
+      "from": "advanced-repair",
+      "to": "repair-routines",
+      "label": "array calls",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "labelAt": [
+        977,
+        390
+      ]
+    },
+    {
+      "id": "library-imports",
+      "from": "repair-routines",
+      "to": "geometry-libraries",
+      "label": "imports"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Primary repair path",
+      "items": [
+        "main.py: 3 initial-cleanup iterations \u2192 temporary binary STL \u2192 advanced repair \u2192 output; temporary file removed after stage 2.",
+        "Advanced: shell union/filtering, topology separation, winding, welding and hole patches. NumPy arrays stay in one repair process."
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "Convergence & output checks",
+      "items": [
+        "Up to 3 refinement passes; structural regressions roll back. Final winding audit and float32 split stabilization precede export/reload analysis.",
+        "Completion does not guarantee watertightness. The 300 s internal check is cooperative; local batch evaluation adds a 120 s default hard timeout + CSV."
+      ]
+    },
+    {
+      "dot": "rose",
+      "title": "Trust & optional dependencies",
+      "items": [
+        "Input STL and remote dataset bytes cross trust boundaries. INI/paths are operator controlled; libraries share process privileges. Boundaries are not sandboxes.",
+        "NumPy/numpy-stl; SciPy fallbacks; optional trimesh Boolean backend. HTTPS evaluator launches main.py without a hard timeout; streaming evaluation calls advanced repair directly.",
+        "Evidence: current modified working tree; main.py, src/pipelines, src/core, src/routines and src/scripts."
+      ]
+    }
+  ]
+}

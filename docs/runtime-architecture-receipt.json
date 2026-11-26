@@ -1,0 +1,56 @@
+{
+  "diagram_type": "architecture",
+  "output": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/runtime-architecture.html",
+  "specification_sha256": "818255631e0043d007a023ce496bb2d5c5f795595588f9154b79bcdd8d49868b",
+  "artifact_sha256": "7d25d75dd38d10a5a51b0e9a5b6f84a039fc9feb7fcc3f0545903e5ce82516d4",
+  "specification": {
+    "sha256": "818255631e0043d007a023ce496bb2d5c5f795595588f9154b79bcdd8d49868b",
+    "bytes": 7109
+  },
+  "artifact": {
+    "sha256": "7d25d75dd38d10a5a51b0e9a5b6f84a039fc9feb7fcc3f0545903e5ce82516d4",
+    "bytes": 816794
+  },
+  "validation": "9/9 showcase, 0 errors, 0 warnings",
+  "browser_evidence": "passed",
+  "visual_review": "passed",
+  "correction_rounds": 1,
+  "delivery": {
+    "schemaVersion": 1,
+    "ok": true,
+    "command": "deliver",
+    "type": "architecture",
+    "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/runtime-architecture.archify.json",
+    "output": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/runtime-architecture.html",
+    "specification": {
+      "sha256": "818255631e0043d007a023ce496bb2d5c5f795595588f9154b79bcdd8d49868b",
+      "bytes": 7109
+    },
+    "artifact": {
+      "sha256": "7d25d75dd38d10a5a51b0e9a5b6f84a039fc9feb7fcc3f0545903e5ce82516d4",
+      "bytes": 816794
+    },
+    "validation": {
+      "checksPassed": 9,
+      "checkCount": 9,
+      "compositionProfile": "showcase",
+      "compositionStatus": "pass",
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  "browser_receipt": "runtime-architecture.visual-check.json",
+  "perceptual_review": {
+    "artifact_sha256": "7d25d75dd38d10a5a51b0e9a5b6f84a039fc9feb7fcc3f0545903e5ce82516d4",
+    "reviewed": [
+      "1440x900 light screenshot",
+      "2048x1320 dark screenshot"
+    ],
+    "observations": [
+      "Primary path visible and continuous; supporting routes remain distinct.",
+      "All nodes, boundary labels and detail cards fit without clipping.",
+      "Desktop composition fills the viewport with a balanced diagram and card row."
+    ],
+    "scope": "Screenshot-based perceptual review; no interactive controls exercised."
+  }
+}

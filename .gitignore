@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Build and local artifacts
+.native-build/
+.benchmarks/
+.repair-backups/
+.vscode/
+.DS_Store
+*.log
+
+# Generated data / outputs (test meshes are tracked)
+data/*
+!data/test_meshes/
+data/test_meshes/*_repaired.*

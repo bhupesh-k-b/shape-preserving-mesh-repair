@@ -1,0 +1,208 @@
+{
+  "duplicate_cube_filtering": {
+    "input_faces": 24,
+    "shells_detected": 24,
+    "filter_disabled": true,
+    "output_faces": 0
+  },
+  "topology_separation_fragmentation": {
+    "before": {
+      "faces": 24,
+      "naked_edges": 0,
+      "non_manifold_edges": 12
+    },
+    "after": {
+      "faces": 24,
+      "naked_edges": 48,
+      "non_manifold_edges": 0
+    },
+    "vertices_cracked": 40,
+    "output_shell_face_counts": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "non_manifold_report_watertight": {
+    "report_is_watertight": true,
+    "non_manifold_edges": 18
+  },
+  "non_manifold_excision": {
+    "before": {
+      "faces": 3,
+      "naked_edges": 6,
+      "non_manifold_edges": 1
+    },
+    "after": {
+      "faces": 3,
+      "naked_edges": 6,
+      "non_manifold_edges": 1
+    },
+    "reported_faces_removed": 3
+  },
+  "unit_cube_hole_fill": {
+    "before": {
+      "faces": 10,
+      "naked_edges": 4,
+      "non_manifold_edges": 0
+    },
+    "after": {
+      "faces": 10,
+      "naked_edges": 4,
+      "non_manifold_edges": 0
+    },
+    "faces_added": 0,
+    "boundary_edge": 1.0,
+    "guard_max_edge": 0.606217782649107
+  },
+  "api_returns_unrepaired_mesh": {
+    "returned_normally": true,
+    "output_exists": true,
+    "after": {
+      "faces": 10,
+      "naked_edges": 4,
+      "non_manifold_edges": 0
+    }
+  },
+  "chair_cleanup": {
+    "before": {
+      "faces": 66,
+      "naked_edges": 6,
+      "non_manifold_edges": 0
+    },
+    "after": {
+      "faces": 66,
+      "naked_edges": 0,
+      "non_manifold_edges": 0
+    },
+    "max_nearest_vertex_distance": 2.0,
+    "bbox_diagonal": 25.19047456579764,
+    "max_nearest_vertex_distance_pct_diagonal": 7.9395090186808135
+  },
+  "plane_lower_filtering": {
+    "input_faces": 1484,
+    "shells_detected": 1484,
+    "output_faces": 0
+  },
+  "plane_lower_cli": {
+    "returncode": 1,
+    "claims_success": false,
+    "output_exists": true,
+    "stdout_tail": [
+      "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+      "",
+      "  Written  : /var/folders/xh/h4mkmzbd0h1__9xhw7nkkrkh0000gn/T/mesh-pipeline-audit-09lq0nsi/plane-repaired.stl"
+    ],
+    "stderr_tail": [
+      "  File \"/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/numpy/_core/_methods.py\", line 45, in _amin",
+      "    return umr_minimum(a, axis, None, out, keepdims, initial, where)",
+      "ValueError: zero-size array to reduction operation minimum which has no identity"
+    ],
+    "output_size_bytes": 84,
+    "output_triangles": 0
+  },
+  "uppercase_output_cli": {
+    "returncode": 0,
+    "claims_success": true,
+    "output_exists": false,
+    "stdout_tail": [
+      "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+      "",
+      "[SUCCESS] Pipeline complete. Final output saved to: /var/folders/xh/h4mkmzbd0h1__9xhw7nkkrkh0000gn/T/mesh-pipeline-audit-09lq0nsi/uppercase-output.STL"
+    ],
+    "stderr_tail": []
+  },
+  "uppercase_in_place_cli": {
+    "returncode": 0,
+    "claims_success": true,
+    "output_exists": false,
+    "stdout_tail": [
+      "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+      "",
+      "[SUCCESS] Pipeline complete. Final output saved to: /var/folders/xh/h4mkmzbd0h1__9xhw7nkkrkh0000gn/T/mesh-pipeline-audit-09lq0nsi/in-place.STL"
+    ],
+    "stderr_tail": [],
+    "input_exists_after": false
+  },
+  "hollow_void_orientation": {
+    "union_strategy": "Tier2-interior-cull",
+    "shell_signed_volumes_after_union": [
+      27.0,
+      -1.0
+    ],
+    "shell_signed_volumes_after_winding": [
+      27.0,
+      1.0
+    ]
+  },
+  "overlapping_boxes_union": {
+    "strategy": "Tier2-interior-cull",
+    "claims_union_success": true,
+    "culled_faces": 0,
+    "after": {
+      "faces": 24,
+      "naked_edges": 0,
+      "non_manifold_edges": 0
+    },
+    "signed_volume": 2.0,
+    "correct_union_volume": 1.664
+  },
+  "internal_timeout": {
+    "returned_normally": true,
+    "output_exists": false,
+    "returned_faces": 12,
+    "reported_time_ms": 0.0
+  },
+  "export_vertex_stabilization": {
+    "before": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1e-06,
+        0.0,
+        0.0
+      ]
+    ],
+    "after": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1e-06,
+        0.0,
+        0.0
+      ],
+      [
+        1e-06,
+        0.0,
+        0.0
+      ]
+    ],
+    "distinct_float32_positions_after": 2,
+    "duplicate_displacement_at_1e6": 0.476837158203125
+  },
+  "scale_dependent_import": {
+    "unit_cube_vertices": 8,
+    "micro_cube_vertices": 1,
+    "repeated_vertex_faces": 12
+  }
+}

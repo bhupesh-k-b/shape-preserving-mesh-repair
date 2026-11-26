@@ -1,0 +1,42 @@
+[
+  {
+    "sample": "Chair.stl",
+    "exit_code": 0,
+    "claims_success": true,
+    "output_exists": true,
+    "faces": 66,
+    "naked_edges": 0,
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0
+  },
+  {
+    "sample": "100030.stl",
+    "exit_code": 0,
+    "claims_success": true,
+    "output_exists": true,
+    "faces": 2076,
+    "naked_edges": 0,
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0
+  },
+  {
+    "sample": "Non_Planar_Test.stl",
+    "exit_code": 0,
+    "claims_success": true,
+    "output_exists": true,
+    "faces": 2636,
+    "naked_edges": 0,
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0
+  },
+  {
+    "sample": "b1.stl",
+    "exit_code": 0,
+    "claims_success": true,
+    "output_exists": true,
+    "faces": 23314,
+    "naked_edges": 0,
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0
+  }
+]

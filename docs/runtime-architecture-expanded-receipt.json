@@ -1,0 +1,53 @@
+{
+  "diagram_type": "architecture",
+  "output": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/runtime-architecture-expanded.html",
+  "components": 12,
+  "specification_sha256": "b603c22710508f5230d308e342230019667ba452120be4421e6a6b07146e6517",
+  "artifact_sha256": "8a0850c61487887d3a80f6930dd199f4141a68954f276b1dfb6b09b2275e70be",
+  "specification": {
+    "sha256": "b603c22710508f5230d308e342230019667ba452120be4421e6a6b07146e6517",
+    "bytes": 7621
+  },
+  "artifact": {
+    "sha256": "8a0850c61487887d3a80f6930dd199f4141a68954f276b1dfb6b09b2275e70be",
+    "bytes": 818104
+  },
+  "validation": "9/9 showcase, 0 errors, 0 warnings",
+  "browser_evidence": "passed",
+  "visual_review": "passed",
+  "correction_rounds": 1,
+  "delivery": {
+    "schemaVersion": 1,
+    "ok": true,
+    "command": "deliver",
+    "type": "architecture",
+    "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/runtime-architecture-expanded.archify.json",
+    "output": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/runtime-architecture-expanded.html",
+    "specification": {
+      "sha256": "b603c22710508f5230d308e342230019667ba452120be4421e6a6b07146e6517",
+      "bytes": 7621
+    },
+    "artifact": {
+      "sha256": "8a0850c61487887d3a80f6930dd199f4141a68954f276b1dfb6b09b2275e70be",
+      "bytes": 818104
+    },
+    "validation": {
+      "checksPassed": 9,
+      "checkCount": 9,
+      "compositionProfile": "showcase",
+      "compositionStatus": "pass",
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  "browser_receipt": "runtime-architecture-expanded.visual-check.json",
+  "perceptual_review": {
+    "artifact_sha256": "8a0850c61487887d3a80f6930dd199f4141a68954f276b1dfb6b09b2275e70be",
+    "scope": "Screenshot review: 1440x900 light and 2048x1320 dark; interactive controls not exercised.",
+    "observations": [
+      "Primary path remains readable across the top.",
+      "Initial Cleanup, Advanced Repair and Repair Routines expand downward.",
+      "Trust boundaries are distinct; nodes, labels and cards fit without clipping."
+    ]
+  }
+}

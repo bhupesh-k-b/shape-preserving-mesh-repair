@@ -1,0 +1,19 @@
+{
+  "before": {
+    "profile_limit_seconds": 30,
+    "total_profile_seconds": 30.08689521200003,
+    "total_function_calls": 65984933,
+    "winding_calls": 9,
+    "winding_cumulative_seconds": 18.224335166,
+    "winding_seconds_per_call": 2.0249261295555554
+  },
+  "after": {
+    "profile_limit_seconds": 30,
+    "total_profile_seconds": 30.149613175,
+    "total_function_calls": 45930859,
+    "winding_calls": 14,
+    "winding_cumulative_seconds": 4.994111749,
+    "winding_seconds_per_call": 0.3567222677857143
+  },
+  "interpretation": "Development profiling under a 30-second soft deadline; attempted routes and machine contention differ. This is bottleneck evidence, not an isolated release speed benchmark."
+}

@@ -1,0 +1,152 @@
+{
+  "attempted": 18,
+  "verified": 18,
+  "automatic_coverage": 1.0,
+  "reference_labeled_outputs": 18,
+  "reference_correct": 18,
+  "statuses": {
+    "VERIFIED_REPAIRED": 18
+  },
+  "manifest": [
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1e-07-0.npz",
+      "sha256": "a0742f2cc11d4e6589682390cb3f27232247564102ac94289c31ed84bef0a974",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1e-07-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1e-07-1e+06.npz",
+      "sha256": "d50401b809a87916175764640485ad5e7e08824987ecde28d3cc427ae8200a82",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1e-07-1e+06-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1-0.npz",
+      "sha256": "9a8e34817853ce23b245e2ab431477b8df2f5159f8f344c37849b365881aed17",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1-1e+06.npz",
+      "sha256": "95f04e4bfc18df42a118670abf0c629275aeaa58d894ca078126158c4dd6dff1",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1-1e+06-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1000-0.npz",
+      "sha256": "99bbba38045fd030a532c37b4f4beb76f3502485df94dd15f6dafa054569368e",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1000-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1000-1e+06.npz",
+      "sha256": "428276aa800680b308098f38728c2a7add0ba8241a13ca4caddf315a61472490",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1000-1e+06-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1e-07-0.npz",
+      "sha256": "9551925ba24761da203baf167fd2e6975ab40a50d0b73ca33811ac4a6fe0ed68",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1e-07-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1e-07-1e+06.npz",
+      "sha256": "13ed5fae85438e5fbb3c2bb0b5d7fab086c783ffe33fae517d110098e74e907a",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1e-07-1e+06-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1-0.npz",
+      "sha256": "0da70cd8e025ce5028f51d771b32787f6e5c6f9894bf9cf35e74a353551fe4d6",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1-1e+06.npz",
+      "sha256": "46867f2e2bfabb18020596c26b5d4aa033eb816c5d9ebae59ce84368cd626a7b",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1-1e+06-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1000-0.npz",
+      "sha256": "906632b7bca3cc6b7dc219cea91591abfc57d247a94ca8e611c1431f46a52270",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1000-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1000-1e+06.npz",
+      "sha256": "32eaffeba88aab96f9021fc29142cee253a20708d27f93cce621afe64c62d6f7",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1000-1e+06-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1e-07-0.npz",
+      "sha256": "3954207d7b81ecdb73daf5c806dc8b074d932beb79877302aab3f012c8f25be3",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1e-07-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1e-07-1e+06.npz",
+      "sha256": "c1c9169b860f52af1f3f5cb52c272fb66feb586a39f7c8028e840a1fbbb4045c",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1e-07-1e+06-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1-0.npz",
+      "sha256": "8cd684eafb096e9b056233406c3446e9d967918b3ce5640defed00a068029186",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1-1e+06.npz",
+      "sha256": "4ef6ef877db4fb0804ee1dcc5b62e878fa5b1ea6781514b9d31f6b10150371a1",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1-1e+06-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1000-0.npz",
+      "sha256": "47ce2704e8e0827d1261598f65da9f6f7d9fbcb1cd40a844b3f7d0539c6c681e",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1000-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1000-1e+06.npz",
+      "sha256": "82f551e3578d842c50fcd902d39cc71bd56ffa68f3953b715e6b97710b1d0951",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1000-1e+06-reference.3mf"
+    }
+  ],
+  "runtime": {
+    "python": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "packages": {
+      "numpy": "2.4.4",
+      "numpy-stl": "3.2.0",
+      "scipy": "1.17.1",
+      "trimesh": "4.12.2",
+      "manifold3d": "3.4.1"
+    },
+    "source_sha256": {
+      "src/README.py": "da8b9b38321c1bb26d50a871e3f3527b4349bcf804880b1da5efa1ddb3a42364",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/core/backend_worker.py": "dd567f7820bc7f15e45589f184b229e521667c5f00e66d783b4d5fc42884f00f",
+      "src/core/geometry_backend.py": "40886ee59f56c1af3f7ca4a9cfbf8f29667574e4471be4955abc46d154bfd90a",
+      "src/core/initial_cleanup_engine.py": "18c0c8eaa3c6bafca53a532d4c5a8f0eaf2c78ae53ade85dde6c87ce34176f74",
+      "src/core/mesh_analyzer.py": "a38625326bb53276286a55ae2296411e58831cbc431aaaa3eebf621a7f7863f3",
+      "src/core/mesh_io.py": "71d7f63b39e684f9c4e531baa31850b0d254ddf71686305b86a3aaf9ae2fbdfa",
+      "src/core/pipeline_worker.py": "389594a2f65d96204063a2cf6333c0420b538c90cea39ec5ecef0eec3344dcd8",
+      "src/core/repair_backends.py": "24e852e8718b2d47594130c79b6f1d9bf11cac62f7f3f3df1cf9ea73bd283ec2",
+      "src/core/repair_config.py": "862c6c6bfdc91b1065becbe34e9cbbe14fb3dc972859b7be57f4c3c937f85106",
+      "src/core/repair_utils.py": "7a90a8b3dea90dadfa172df8b52b2b93cf71ef0667b02d81b493d0d10029c56d",
+      "src/core/topology_cache.py": "d9fbf12cd177b7c8cca4708b5d2a12d0a9478e4e92e28c8c1f6a7a9e579e558e",
+      "src/core/validation.py": "623b64e9efd31edca336cd881bdad38b2c74b49a613831e0239e64d0ff3034ad",
+      "src/pipelines/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/pipelines/archive/mesh_repair_char.py": "2857749d3a5c66a32db5ceb835ff2bfab34ac355a594fa8f71574956421c0c7a",
+      "src/pipelines/mesh_repair_initial.py": "41cd064a34b26218bd4c318e397caa27fb95cc810c4c6b914a0eafdbd8ca427a",
+      "src/pipelines/mesh_repair_pipeline.py": "cb0d64408dc6a8666f1cc574fcb37ea3814c72b2e27d9f02e4b73d14efc0f62d",
+      "src/routines/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/routines/repair_degenerates.py": "474f4a37f3a47385a70c0b6cad2346479603054f4ba0cd49d185da2fc66688ec",
+      "src/routines/repair_holes.py": "7e93a9babde7e0118fb997c908981bc6cca2e8f9a9e4703d7cb4452d6c19e2d4",
+      "src/routines/repair_mobius.py": "f252bd7bc7846d771969f7790b3bd0edffed2ac0f3de492241b77555823820ea",
+      "src/routines/repair_nonmanifold.py": "bc802f86df5897c2ed4f5ecd739193e1ee0b7b9394e4ba6be953ef23292bae7c",
+      "src/routines/repair_normals.py": "5058df493f6414f99e75ef56c2b6f96427a8cb566487462f72916f87229210a3",
+      "src/routines/repair_shell_union.py": "30f387f68b704ba0202b6895151d5cafdf60bb72a8496da829d6798e2fc9ed3b",
+      "src/routines/repair_topology_separation.py": "b0430a7a5052b9785d50990656c178c6c570b649d26bbed7956cf4a742094a82",
+      "src/routines/repair_welding.py": "9b5fea02b3a526605d353b27d2d493c2c85e0b716c2b34f0e4e799c696a9c4fa",
+      "src/routines/repair_winding.py": "d1d37f30f270d0dc17a129aad2ad375ad032778b851ab82a29f9728bb0aa5c08",
+      "src/scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/scripts/evaluate_dataset.py": "546101a25412d23533c4ce7a1f8c2a21678c2fe0d5a5f11c791d387e0decb620",
+      "src/scripts/evaluate_thingi10k.py": "b88786f71a450fdecd67a26fe196011d1de373d446bf2b9ce3da2ccfef6e4c96",
+      "src/scripts/evaluate_thingi10k_hf.py": "6fc45855736e12d58ee31c682d02e631830e70b81bfafce2585661704d538652",
+      "src/scripts/generate_repair_benchmark.py": "6466052840ea9f65fccd1041966afb121fc1882312a17b96c1329f173354575d",
+      "src/test_mesh_repair_pipeline.py": "f9add225a93e0e0a585f2484987a05f7ec8e8bb9d7c8dc25dc8a96d94c84a406",
+      "main.py": "865e98d6e8c96e11c01dcc3bc935ed9a5daf5e0cc745a1fe72c5a6161950fcd6",
+      "native/geometry_worker.cpp": "17370c32b32ea1dea454a41f12311cb7e83b5ae5d94ea9553edf2a61787cb671"
+    },
+    "geometry_worker_sha256": "d5820524da54fc9883391a60d972fd2d95205849d71b6e356ed4cb0d1617060e"
+  },
+  "interpretation": "Coverage verifies explicit constraints. It is not recovery accuracy without a labeled intended reference."
+}

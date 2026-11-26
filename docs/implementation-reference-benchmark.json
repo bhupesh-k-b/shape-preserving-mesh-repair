@@ -1,0 +1,423 @@
+{
+  "attempted": 72,
+  "verified": 72,
+  "automatic_coverage": 1.0,
+  "reference_labeled_outputs": 72,
+  "reference_correct": 72,
+  "statuses": {
+    "VERIFIED_REPAIRED": 54,
+    "VERIFIED_UNCHANGED": 18
+  },
+  "manifest": [
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-0-0-identity.npz",
+      "sha256": "aa68a34155034c126036fe92d90bef12fa55924448b56b960dbf1fc148e2446b",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-0-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-0-0-winding.npz",
+      "sha256": "746d01179abafe481fc81896e1c4cc6621e6de91cefad24ffed3b56934e313e4",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-0-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-0-0-hole.npz",
+      "sha256": "e3b96032d4f0cd3faaa6bbdef74f2001ebb30a28b2c419bd6987149640bd5c89",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-0-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-0-0-combined.npz",
+      "sha256": "76256b87a40917f0001e97776a4260dd248a21279364632ab70472eba267aec5",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-0-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-0-1-identity.npz",
+      "sha256": "4a38705e2ffea3dac4bc04f603490b2f969890cf10a8517ea9c5fa32d6d775c2",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-0-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-0-1-winding.npz",
+      "sha256": "baba7ea396e6ecfd04f6e062260869167f2c354db2acc6240912a82d5fbc92a9",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-0-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-0-1-hole.npz",
+      "sha256": "75703710163259d127522a69eb4cf2e90599bb227600f6f9e6019b7416c4e496",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-0-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-0-1-combined.npz",
+      "sha256": "6e4d7a5849dc17c3f4a7443719e32ad95753e214c97aa306d51898c307517156",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-0-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-1-0-identity.npz",
+      "sha256": "2f0f28dd1fdaadd4bfbb21bc1f97190015bdfac462196903438979f26385a4df",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-1-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-1-0-winding.npz",
+      "sha256": "a3ecb13532d95b8e6dc39ae913e16d2b54fd4176c517b3c1b30c1ab8768e877a",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-1-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-1-0-hole.npz",
+      "sha256": "4b838c235624b0ffc79514ce7190171cc8a6a2bd4797dac887b7d87f3f3af884",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-1-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-1-0-combined.npz",
+      "sha256": "5f9729f096465091ebca7d4488ba398e4023669b995c99ff2c9f356f98a9f4d8",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-1-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-1-1-identity.npz",
+      "sha256": "88c971e03c16a3a01c0c7a6a272210a44b8a309a5806f0d7a60bc8cd221aacc5",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-1-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-1-1-winding.npz",
+      "sha256": "d945c51e759f0c69d2e625dd11be26ccb8b0cffde7fec290da748acda377779f",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-1-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-1-1-hole.npz",
+      "sha256": "8e051d4382c11b377b3177efc20921ba8acd139cf05c1f572c04f95df74d2fe4",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-1-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-1-1-combined.npz",
+      "sha256": "c9b4825f3aba7e7878245f905e91a35bc7dfaf61618d5ad46814318d8616ec98",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-1-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-2-0-identity.npz",
+      "sha256": "ee0b78a148e12ddf0809ffd45c85fd4efa94c6b81dfbb7edaa3527d40286f808",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-2-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-2-0-winding.npz",
+      "sha256": "294ca711d9bb13d134a2ddf8a5e123025adfb4c7f145d9e9adebaf27e1273c92",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-2-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-2-0-hole.npz",
+      "sha256": "59e3245b91af7fd4daed6fa45a658feef03669d7e7c0b458a4b905fd54063f91",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-2-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-2-0-combined.npz",
+      "sha256": "ed952415026fadd0dd5fce220b8db542aba8f0fca22b0957695cafc7cbd7a7bf",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-2-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-2-1-identity.npz",
+      "sha256": "0ef927a640d67dfc65bc25740b4a25c7bfdf6121cb3e6351acc20efaf1a1993e",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-2-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-2-1-winding.npz",
+      "sha256": "645dc4f026b582cd00dcd5f842544cf5721264a19037cd4e66ce9925f9367060",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-2-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-2-1-hole.npz",
+      "sha256": "a8b8d0483bec10c8ab5e4d6883d2c47960137f2944cd97f8d707b8ada7549e89",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-2-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-2-1-combined.npz",
+      "sha256": "965fede4780932e5ceff3fc7056b3b6120379ef5874c5a93dde298681157f763",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cube-2-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-0-0-identity.npz",
+      "sha256": "8c415863773de949eec578fd3a463084379a043a4dd8c043b93736d8ad20e053",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-0-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-0-0-winding.npz",
+      "sha256": "4308b3f177fbd528f312fd46c0f7b55b07668d4be94409ecdd7601e182f565fa",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-0-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-0-0-hole.npz",
+      "sha256": "af423cfcc1305b8484c7e3a7e947aa77d4c26ce929720de8a968a8fff5494e0d",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-0-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-0-0-combined.npz",
+      "sha256": "c29c2d6f3facfe95a4f0d07da47dbe8af08b4586b5e1f81bdbdd8c21f3e094f8",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-0-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-0-1-identity.npz",
+      "sha256": "a9a83d93fc856500829ab3c959110993a7b6820947a7188655d28299613d1c78",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-0-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-0-1-winding.npz",
+      "sha256": "bd81d7a42cc64556feaaae5a02ce3180094aa86e5c48c8d548983e6e3c6ea93a",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-0-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-0-1-hole.npz",
+      "sha256": "aa89402bb84bedeccc352f96699508abe9c916340ff80ae8f626bd586e65e761",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-0-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-0-1-combined.npz",
+      "sha256": "3f5f2c884b527517737b4467c0b5c7e84024b8330747f747995a6e132194a92f",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-0-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-1-0-identity.npz",
+      "sha256": "77c400ab5565073bdd573383fd37b814fba1464687a84169c01536c53774c2ea",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-1-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-1-0-winding.npz",
+      "sha256": "789dc9e53dcbd9eaefdf944e8a2a30a665dc06c0296b273eb67fad6aaf6661f7",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-1-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-1-0-hole.npz",
+      "sha256": "dda1b3df9d43269cda529c25f1b59e8a5f946c76f7e94794daeb91380283c31f",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-1-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-1-0-combined.npz",
+      "sha256": "22dc0ebc7f7b0ae293a78769327354e53937061a10682c271c59ff6477eeff44",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-1-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-1-1-identity.npz",
+      "sha256": "e5504a0202ac2b93405b941bbbe3983da9280dba25a26b350915c747b328aa3c",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-1-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-1-1-winding.npz",
+      "sha256": "18ed0d668614c4ab87c5a151cba18f77a1c8142fd2ccd3d67f5d3173d494513b",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-1-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-1-1-hole.npz",
+      "sha256": "1cfbed609bd907ed68ec4ac3e01dfc1e050d3d2bae8b74a1279e339a2d75e4ba",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-1-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-1-1-combined.npz",
+      "sha256": "904729a64c022236d1645526c0844936db4a90dfa7434f641b8407fbc299cc4a",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-1-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-2-0-identity.npz",
+      "sha256": "a616fa9264bb04a98dbd6e04143b9f1f671da6d2e3d1e0a676327b4743d0a028",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-2-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-2-0-winding.npz",
+      "sha256": "fe845dca7698984e9887c72c094dae1cc198348ef88228810a61b4850f78dec6",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-2-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-2-0-hole.npz",
+      "sha256": "433daeac9b7ee2a63b3ac9d953b7cfe0fc2a2b85888a78349a2605af87fcadeb",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-2-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-2-0-combined.npz",
+      "sha256": "f4323ce876879a4957a71bdee1f94c6f641bfbd63120fac1655f8f21cc77b9eb",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-2-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-2-1-identity.npz",
+      "sha256": "ffd95af0c42be050694d213d87bf8d85ea34de55e1a59a7544419d12747b7c87",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-2-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-2-1-winding.npz",
+      "sha256": "a953926eabef438c61e9d2ce4b2d7692abf01bb9c80ade16c3873bfa3080ccf3",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-2-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-2-1-hole.npz",
+      "sha256": "95e8b0721249492a6de76be1fdc88b3e342b667f492642caadcfa093a8774d56",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-2-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-2-1-combined.npz",
+      "sha256": "7551ac3835366a2cd6f59476d95841d0f6cc2f355ca126cddf1e47e511d44a37",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/icosphere-2-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-0-0-identity.npz",
+      "sha256": "16959fd02a2cbbadd973bc3813fb8a77066d3734b1e3f67d975642be26853885",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-0-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-0-0-winding.npz",
+      "sha256": "c09a0ce721cd080988d1c59ac4a65e82a2ca3f84143c639d617c24c4d5cbbeda",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-0-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-0-0-hole.npz",
+      "sha256": "a8058a444d679a663ecc9832e406c38bb3cdc72651cce6b0533c47d758fb4119",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-0-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-0-0-combined.npz",
+      "sha256": "69a686c5a8ea574bde6c17abf9fa4a97d72503326ba5de6014c64c9ffc9e3c6a",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-0-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-0-1-identity.npz",
+      "sha256": "88456125dd947cd8ffd872391f6baaf9685ba41523b1bef340771d14e287a4cb",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-0-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-0-1-winding.npz",
+      "sha256": "e9f1b5fcab5d22d94bd2ca8c65aaefac84357b8694fa517109368f91e6f73743",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-0-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-0-1-hole.npz",
+      "sha256": "25c390184b5da333fb0b54afa52368e2cea067fcec62d1a718bd8607c92c5e90",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-0-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-0-1-combined.npz",
+      "sha256": "31aaa6f671c5de28e77f59e3b055915cc9634e148ef328498446f3b6d9af1902",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-0-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-1-0-identity.npz",
+      "sha256": "22e2086d40db54739b8601f9dd8811f284399b8f52f79e25b502e3fab96ec0f2",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-1-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-1-0-winding.npz",
+      "sha256": "678c5027748e5e8e77bf42fee6ffd2a3128826109e6428fcce6e625feb1eb3cd",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-1-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-1-0-hole.npz",
+      "sha256": "ccba67ade92c84c8b1d9d062269521d715ad61008bcce29dfd0dac202c1e3283",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-1-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-1-0-combined.npz",
+      "sha256": "d5b6898f2e20c962740e4ab5619c4489f2e8be6f56246be7e77e0743e0b80b13",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-1-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-1-1-identity.npz",
+      "sha256": "2fb6f7e1977a29cceca5d52a77727f9c717f070acdb14cad240a42524ade5b66",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-1-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-1-1-winding.npz",
+      "sha256": "f16727540c8eb3f4de539f6bbd31db3de6b6581dd461a09d805a64aa95bef893",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-1-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-1-1-hole.npz",
+      "sha256": "1529822f4bb6cdb571735486ed858d281468cc25013589bf2969dda027e2e733",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-1-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-1-1-combined.npz",
+      "sha256": "fe86ce7aacc71ba06d3400a3c143c740b459ce0b5ca0b1560ace5cd0cb644849",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-1-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-2-0-identity.npz",
+      "sha256": "80fa72da268f4b160deedf201e0e76aef167036f206e20296d0125069e5b4f47",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-2-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-2-0-winding.npz",
+      "sha256": "18e56827cd68f2a43ae51b08206bf67ba03dda5cbe8316b65cbe24fe0e474f8a",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-2-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-2-0-hole.npz",
+      "sha256": "0272b4d1488e70677b2aad5ce1f4ab9d3da286ecc8a14eb70f16a2e6406c031c",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-2-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-2-0-combined.npz",
+      "sha256": "6310cad39ad03672f1f0d29abe2337c455ab330c95d84b68600c534531658d19",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-2-0-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-2-1-identity.npz",
+      "sha256": "d855dbc2beb69a67d287a2b09203af40f89eaee414502bf91a9c7b108d56b375",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-2-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-2-1-winding.npz",
+      "sha256": "10064300238be6ec47caac792dc306f3daefd509f03908c0619005356b72ff3d",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-2-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-2-1-hole.npz",
+      "sha256": "26ca7085bc451d1f7e62af70aef54d2b93e5304aaa4e51eeff171dd71391e66a",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-2-1-reference.3mf"
+    },
+    {
+      "input": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-2-1-combined.npz",
+      "sha256": "1f10063d3376f1ef36635dc3cbe103501eefa0e49fe52a24d01b1be5a2b3dc81",
+      "reference": "/Users/bhupesh/Advanced_Mesh_Repairing/docs/../.benchmarks/reference-inputs/cylinder-2-1-reference.3mf"
+    }
+  ],
+  "runtime": {
+    "python": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "packages": {
+      "numpy": "2.4.4",
+      "numpy-stl": "3.2.0",
+      "scipy": "1.17.1",
+      "trimesh": "4.12.2",
+      "manifold3d": "3.4.1"
+    },
+    "source_sha256": {
+      "src/README.py": "da8b9b38321c1bb26d50a871e3f3527b4349bcf804880b1da5efa1ddb3a42364",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/core/backend_worker.py": "dd567f7820bc7f15e45589f184b229e521667c5f00e66d783b4d5fc42884f00f",
+      "src/core/geometry_backend.py": "0e63886764ad005be5e3f32096871d0d1f9e2e4aaef8115745b3cd80ea1ac9b7",
+      "src/core/initial_cleanup_engine.py": "18c0c8eaa3c6bafca53a532d4c5a8f0eaf2c78ae53ade85dde6c87ce34176f74",
+      "src/core/mesh_analyzer.py": "a38625326bb53276286a55ae2296411e58831cbc431aaaa3eebf621a7f7863f3",
+      "src/core/mesh_io.py": "71d7f63b39e684f9c4e531baa31850b0d254ddf71686305b86a3aaf9ae2fbdfa",
+      "src/core/pipeline_worker.py": "389594a2f65d96204063a2cf6333c0420b538c90cea39ec5ecef0eec3344dcd8",
+      "src/core/repair_backends.py": "1558f54d87f8cba5538b4f21f13bad7191f055e8b3e3d32eb333b598db276044",
+      "src/core/repair_config.py": "4b728ad065649e3d17894e8b4f07a84199e13110cedb3c23f42fb12f3de09b4c",
+      "src/core/repair_utils.py": "7a90a8b3dea90dadfa172df8b52b2b93cf71ef0667b02d81b493d0d10029c56d",
+      "src/core/topology_cache.py": "d9fbf12cd177b7c8cca4708b5d2a12d0a9478e4e92e28c8c1f6a7a9e579e558e",
+      "src/core/validation.py": "72fd3379e823913e69f6c700997a3656fa9c074fc90af54c3689c9aea8953750",
+      "src/pipelines/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/pipelines/archive/mesh_repair_char.py": "2857749d3a5c66a32db5ceb835ff2bfab34ac355a594fa8f71574956421c0c7a",
+      "src/pipelines/mesh_repair_initial.py": "41cd064a34b26218bd4c318e397caa27fb95cc810c4c6b914a0eafdbd8ca427a",
+      "src/pipelines/mesh_repair_pipeline.py": "60990b32904610139754c064af94b7a542490793b99570ba0b84da4ab993f970",
+      "src/routines/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/routines/repair_degenerates.py": "474f4a37f3a47385a70c0b6cad2346479603054f4ba0cd49d185da2fc66688ec",
+      "src/routines/repair_holes.py": "bdbd48ae0d838b8d593729945c45e311631c251111b0e4bcd69280b6813713ec",
+      "src/routines/repair_mobius.py": "f252bd7bc7846d771969f7790b3bd0edffed2ac0f3de492241b77555823820ea",
+      "src/routines/repair_nonmanifold.py": "bc802f86df5897c2ed4f5ecd739193e1ee0b7b9394e4ba6be953ef23292bae7c",
+      "src/routines/repair_normals.py": "5058df493f6414f99e75ef56c2b6f96427a8cb566487462f72916f87229210a3",
+      "src/routines/repair_shell_union.py": "c766bced6929b74dca15e6d489f55578051d4573fcdfabe078169e46453bae25",
+      "src/routines/repair_topology_separation.py": "b0430a7a5052b9785d50990656c178c6c570b649d26bbed7956cf4a742094a82",
+      "src/routines/repair_welding.py": "9b5fea02b3a526605d353b27d2d493c2c85e0b716c2b34f0e4e799c696a9c4fa",
+      "src/routines/repair_winding.py": "daefc4577566f6438d8d06e0adfa3d61c269bdd9f2d568b3935a4f9db8c9953d",
+      "src/scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/scripts/evaluate_dataset.py": "546101a25412d23533c4ce7a1f8c2a21678c2fe0d5a5f11c791d387e0decb620",
+      "src/scripts/evaluate_thingi10k.py": "b88786f71a450fdecd67a26fe196011d1de373d446bf2b9ce3da2ccfef6e4c96",
+      "src/scripts/evaluate_thingi10k_hf.py": "6fc45855736e12d58ee31c682d02e631830e70b81bfafce2585661704d538652",
+      "src/scripts/generate_repair_benchmark.py": "6466052840ea9f65fccd1041966afb121fc1882312a17b96c1329f173354575d",
+      "src/test_mesh_repair_pipeline.py": "f9add225a93e0e0a585f2484987a05f7ec8e8bb9d7c8dc25dc8a96d94c84a406",
+      "main.py": "865e98d6e8c96e11c01dcc3bc935ed9a5daf5e0cc745a1fe72c5a6161950fcd6",
+      "native/geometry_worker.cpp": "d9ac1ec39258babbebf4cfe0ba4646bc10b080b3f2046076151f9a480254a90c"
+    },
+    "geometry_worker_sha256": "d5820524da54fc9883391a60d972fd2d95205849d71b6e356ed4cb0d1617060e"
+  },
+  "interpretation": "Coverage verifies explicit constraints. It is not recovery accuracy without a labeled intended reference."
+}

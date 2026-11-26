@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20)
+project(mesh_geometry_worker LANGUAGES CXX)
+find_package(CGAL 6.1 REQUIRED)
+add_executable(mesh_geometry_worker geometry_worker.cpp)
+target_compile_features(mesh_geometry_worker PRIVATE cxx_std_17)
+target_link_libraries(mesh_geometry_worker PRIVATE CGAL::CGAL)

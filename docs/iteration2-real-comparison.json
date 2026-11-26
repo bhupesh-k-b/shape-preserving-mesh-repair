@@ -1,0 +1,9 @@
+{
+  "attempted": 29,
+  "status_changes": [],
+  "foundation_median_seconds": 7.126,
+  "current_median_seconds": 6.352,
+  "foundation_total_seconds": 396.916,
+  "current_total_seconds": 371.188,
+  "interpretation": "Fixed 29-model cohort, 45-second hard deadline; both measurements include concurrent testing, and timeout times are censored. No isolated performance guarantee."
+}

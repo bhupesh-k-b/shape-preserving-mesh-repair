@@ -1,0 +1,2273 @@
+{
+  "scope": "29 fixed real-mesh inputs, strict preservation, 3MF, 45s; categories overlap",
+  "category_counts": {
+    "intersection_remains": 20,
+    "boundary_or_incidence_defects": 19,
+    "candidate_failed_source_preservation": 18,
+    "hard_deadline": 4
+  },
+  "unresolved_models": [
+    {
+      "model": "67050",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects",
+        "candidate_failed_source_preservation"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 1870",
+        "non_manifold_edges: 143",
+        "non_manifold_vertices: 227",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 1.0499792871570348e-28,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 3909,
+            "naked_edges": 132,
+            "non_manifold_edges": 47,
+            "non_manifold_vertices": 92,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 132",
+              "non_manifold_edges: 47",
+              "non_manifold_vertices: 92",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "preservation-checked-excision",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "uncertified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 3596,
+            "naked_edges": 322,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 58,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 322",
+              "winding_conflicts: 58",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "rejection": "Hole triangulation requires coherent orientable manifold sheets"
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "closed_part_retention_failed",
+          "closed_parts_preserved": false,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 9064,
+            "naked_edges": 1870,
+            "non_manifold_edges": 143,
+            "non_manifold_vertices": 227,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 1870",
+              "non_manifold_edges: 143",
+              "non_manifold_vertices: 227",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    },
+    {
+      "model": "1368070",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects",
+        "candidate_failed_source_preservation"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 2",
+        "non_manifold_edges: 1",
+        "non_manifold_vertices: 2",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 0.0,
+          "certificate": "exact_facets",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 10532,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "preserves_source": true,
+          "source_surface_error_bound": 0.0,
+          "certificate": "exact_facets",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 10532,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "uncertified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": true,
+            "face_count": 10532,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": false,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": []
+          }
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "closed_part_retention_failed",
+          "closed_parts_preserved": false,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 10537,
+            "naked_edges": 2,
+            "non_manifold_edges": 1,
+            "non_manifold_vertices": 2,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 2",
+              "non_manifold_edges: 1",
+              "non_manifold_vertices: 2",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    },
+    {
+      "model": "leo_A_stalk_3",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects",
+        "candidate_failed_source_preservation"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 4579",
+        "non_manifold_edges: 148",
+        "non_manifold_vertices: 265",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 0.0,
+          "certificate": "exact_facets",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 9562,
+            "naked_edges": 572,
+            "non_manifold_edges": 44,
+            "non_manifold_vertices": 73,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 572",
+              "non_manifold_edges: 44",
+              "non_manifold_vertices: 73",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "preservation-checked-excision",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "uncertified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 8836,
+            "naked_edges": 944,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 33,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 944",
+              "winding_conflicts: 33",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "rejection": "Hole triangulation requires coherent orientable manifold sheets"
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": true,
+          "source_surface_error_bound": 3.757219165553765e-12,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 18166,
+            "naked_edges": 4579,
+            "non_manifold_edges": 148,
+            "non_manifold_vertices": 265,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 4579",
+              "non_manifold_edges: 148",
+              "non_manifold_vertices: 265",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    },
+    {
+      "model": "100030",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects",
+        "candidate_failed_source_preservation"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 93",
+        "non_manifold_edges: 3",
+        "non_manifold_vertices: 5",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 4.1051493732359725e-12,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 1622,
+            "naked_edges": 90,
+            "non_manifold_edges": 2,
+            "non_manifold_vertices": 4,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 90",
+              "non_manifold_edges: 2",
+              "non_manifold_vertices: 4",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "preservation-checked-excision",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "uncertified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 1299,
+            "naked_edges": 263,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 55,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 263",
+              "winding_conflicts: 55",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "rejection": "Hole triangulation requires coherent orientable manifold sheets"
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": true,
+          "source_surface_error_bound": 4.1051493732359725e-12,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 1760,
+            "naked_edges": 93,
+            "non_manifold_edges": 3,
+            "non_manifold_vertices": 5,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 93",
+              "non_manifold_edges: 3",
+              "non_manifold_vertices: 5",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    },
+    {
+      "model": "extreme",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects",
+        "candidate_failed_source_preservation"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 471",
+        "non_manifold_edges: 67",
+        "non_manifold_vertices: 101",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 0.0,
+          "certificate": "exact_facets",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 3261,
+            "naked_edges": 10,
+            "non_manifold_edges": 2,
+            "non_manifold_vertices": 4,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 10",
+              "non_manifold_edges: 2",
+              "non_manifold_vertices: 4",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "preservation-checked-excision",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "uncertified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 3254,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "rejection": "Hole triangulation requires coherent orientable manifold sheets"
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "closed_part_retention_failed",
+          "closed_parts_preserved": false,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 9492,
+            "naked_edges": 471,
+            "non_manifold_edges": 67,
+            "non_manifold_vertices": 101,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 471",
+              "non_manifold_edges: 67",
+              "non_manifold_vertices: 101",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    },
+    {
+      "model": "37416",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects",
+        "candidate_failed_source_preservation"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 1511",
+        "non_manifold_edges: 93",
+        "non_manifold_vertices: 163",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 0.0,
+          "certificate": "exact_facets",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 13680,
+            "naked_edges": 382,
+            "non_manifold_edges": 34,
+            "non_manifold_vertices": 55,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 382",
+              "non_manifold_edges: 34",
+              "non_manifold_vertices: 55",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "preservation-checked-excision",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "uncertified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 12616,
+            "naked_edges": 1380,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 216,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 1380",
+              "winding_conflicts: 216",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "rejection": "Hole triangulation requires coherent orientable manifold sheets"
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": true,
+          "source_surface_error_bound": 4.662176333406061e-12,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 16751,
+            "naked_edges": 1511,
+            "non_manifold_edges": 93,
+            "non_manifold_vertices": 163,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 1511",
+              "non_manifold_edges: 93",
+              "non_manifold_vertices: 163",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    },
+    {
+      "model": "49874",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects",
+        "candidate_failed_source_preservation"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 166",
+        "non_manifold_edges: 24",
+        "non_manifold_vertices: 41",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 3.740982801323297e-12,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 30646,
+            "naked_edges": 147,
+            "non_manifold_edges": 22,
+            "non_manifold_vertices": 37,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 147",
+              "non_manifold_edges: 22",
+              "non_manifold_vertices: 37",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "preservation-checked-excision",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "uncertified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 30528,
+            "naked_edges": 126,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 388,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 126",
+              "winding_conflicts: 388",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "rejection": "Hole triangulation requires coherent orientable manifold sheets"
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": true,
+          "source_surface_error_bound": 3.740982801323297e-12,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 30824,
+            "naked_edges": 166,
+            "non_manifold_edges": 24,
+            "non_manifold_vertices": 41,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 166",
+              "non_manifold_edges: 24",
+              "non_manifold_vertices: 41",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    },
+    {
+      "model": "73863",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 5",
+        "non_manifold_edges: 2",
+        "non_manifold_vertices: 4",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 0.0,
+          "certificate": "exact_facets",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 5772,
+            "naked_edges": 3,
+            "non_manifold_edges": 1,
+            "non_manifold_vertices": 2,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 3",
+              "non_manifold_edges: 1",
+              "non_manifold_vertices: 2",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "preservation-checked-excision",
+          "preserves_source": true,
+          "source_surface_error_bound": 5.833434514667443e-13,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 5776,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "rejection": "Hole triangulation requires coherent orientable manifold sheets"
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": true,
+          "source_surface_error_bound": 5.833434514667443e-13,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 5775,
+            "naked_edges": 5,
+            "non_manifold_edges": 2,
+            "non_manifold_vertices": 4,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 5",
+              "non_manifold_edges: 2",
+              "non_manifold_vertices: 4",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    },
+    {
+      "model": "minotaur_B_fist_smash_2",
+      "status": "TIMEOUT",
+      "failure_categories": [
+        "hard_deadline"
+      ],
+      "reasons": [
+        "Hard repair deadline exceeded; destination preserved"
+      ],
+      "attempts": []
+    },
+    {
+      "model": "benchmark",
+      "status": "TIMEOUT",
+      "failure_categories": [
+        "hard_deadline"
+      ],
+      "reasons": [
+        "Hard repair deadline exceeded; destination preserved"
+      ],
+      "attempts": []
+    },
+    {
+      "model": "106610",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 6",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 0.0,
+          "certificate": "exact_facets",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 35020,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "preserves_source": true,
+          "source_surface_error_bound": 0.0,
+          "certificate": "exact_facets",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 35020,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "preserves_source": true,
+          "source_surface_error_bound": 0.0,
+          "certificate": "exact_facets",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 35020,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": true,
+          "source_surface_error_bound": 3.2741037878442587e-12,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 35082,
+            "naked_edges": 6,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 6",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    },
+    {
+      "model": "99736 copy",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects",
+        "candidate_failed_source_preservation"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 127",
+        "non_manifold_edges: 24",
+        "non_manifold_vertices: 45",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 2.779108215937244e-12,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 5874,
+            "naked_edges": 252,
+            "non_manifold_edges": 10,
+            "non_manifold_vertices": 20,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 2,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 252",
+              "non_manifold_edges: 10",
+              "non_manifold_vertices: 20",
+              "winding_conflicts: 2",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "preservation-checked-excision",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "uncertified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 5631,
+            "naked_edges": 313,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 50,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 313",
+              "winding_conflicts: 50",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "rejection": "Hole triangulation requires coherent orientable manifold sheets"
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "closed_part_retention_failed",
+          "closed_parts_preserved": false,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 11133,
+            "naked_edges": 127,
+            "non_manifold_edges": 24,
+            "non_manifold_vertices": 45,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 127",
+              "non_manifold_edges: 24",
+              "non_manifold_vertices: 45",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    },
+    {
+      "model": "131500",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects",
+        "candidate_failed_source_preservation"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 21",
+        "non_manifold_edges: 3",
+        "non_manifold_vertices: 6",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 0.0,
+          "certificate": "exact_facets",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 34884,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "preservation-checked-excision",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "uncertified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 34864,
+            "naked_edges": 22,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 67,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 22",
+              "winding_conflicts: 67",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "rejection": "Hole triangulation requires coherent orientable manifold sheets"
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": true,
+          "source_surface_error_bound": 1.2617342952101335e-12,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 35392,
+            "naked_edges": 21,
+            "non_manifold_edges": 3,
+            "non_manifold_vertices": 6,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 21",
+              "non_manifold_edges: 3",
+              "non_manifold_vertices: 6",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    },
+    {
+      "model": "squirtle",
+      "status": "TIMEOUT",
+      "failure_categories": [
+        "hard_deadline"
+      ],
+      "reasons": [
+        "Hard repair deadline exceeded; destination preserved"
+      ],
+      "attempts": []
+    },
+    {
+      "model": "100029",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects",
+        "candidate_failed_source_preservation"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 4",
+        "non_manifold_edges: 2",
+        "non_manifold_vertices: 4",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 7.462615371972924e-12,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 454,
+            "naked_edges": 4,
+            "non_manifold_edges": 2,
+            "non_manifold_vertices": 4,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 4",
+              "non_manifold_edges: 2",
+              "non_manifold_vertices: 4",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "preservation-checked-excision",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "uncertified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": true,
+            "face_count": 448,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": false,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": []
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "rejection": "Hole triangulation requires coherent orientable manifold sheets"
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": true,
+          "source_surface_error_bound": 7.462615371972924e-12,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 454,
+            "naked_edges": 4,
+            "non_manifold_edges": 2,
+            "non_manifold_vertices": 4,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 4",
+              "non_manifold_edges: 2",
+              "non_manifold_vertices: 4",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    },
+    {
+      "model": "49416",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects",
+        "candidate_failed_source_preservation"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 11",
+        "non_manifold_edges: 3",
+        "non_manifold_vertices: 6",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 0.0,
+          "certificate": "exact_facets",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 716,
+            "naked_edges": 6,
+            "non_manifold_edges": 2,
+            "non_manifold_vertices": 4,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 6",
+              "non_manifold_edges: 2",
+              "non_manifold_vertices: 4",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "preservation-checked-excision",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "uncertified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 722,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "rejection": "Hole triangulation requires coherent orientable manifold sheets"
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": true,
+          "source_surface_error_bound": 9.048412401552988e-21,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 722,
+            "naked_edges": 11,
+            "non_manifold_edges": 3,
+            "non_manifold_vertices": 6,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 11",
+              "non_manifold_edges: 3",
+              "non_manifold_vertices: 6",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    },
+    {
+      "model": "99736",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects",
+        "candidate_failed_source_preservation"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 127",
+        "non_manifold_edges: 24",
+        "non_manifold_vertices: 45",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 2.779108215937244e-12,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 5874,
+            "naked_edges": 252,
+            "non_manifold_edges": 10,
+            "non_manifold_vertices": 20,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 2,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 252",
+              "non_manifold_edges: 10",
+              "non_manifold_vertices: 20",
+              "winding_conflicts: 2",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "preservation-checked-excision",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "uncertified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 5631,
+            "naked_edges": 313,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 50,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 313",
+              "winding_conflicts: 50",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "rejection": "Hole triangulation requires coherent orientable manifold sheets"
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "closed_part_retention_failed",
+          "closed_parts_preserved": false,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 11133,
+            "naked_edges": 127,
+            "non_manifold_edges": 24,
+            "non_manifold_vertices": 45,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 127",
+              "non_manifold_edges: 24",
+              "non_manifold_vertices: 45",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    },
+    {
+      "model": "104647",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects",
+        "candidate_failed_source_preservation"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 180",
+        "non_manifold_edges: 19",
+        "non_manifold_vertices: 32",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 0.0,
+          "certificate": "exact_facets",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 15368,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 4,
+            "zero_volume_shells": 1,
+            "reasons": [
+              "cavity_orientation_errors: 4",
+              "zero_volume_shells: 1",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "preservation-checked-excision",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "uncertified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 15368,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 4,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "cavity_orientation_errors: 4",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "rejection": "Hole triangulation requires coherent orientable manifold sheets"
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "closed_part_retention_failed",
+          "closed_parts_preserved": false,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 20771,
+            "naked_edges": 180,
+            "non_manifold_edges": 19,
+            "non_manifold_vertices": 32,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 180",
+              "non_manifold_edges: 19",
+              "non_manifold_vertices: 32",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    },
+    {
+      "model": "90276",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "candidate_failed_source_preservation"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 0.0,
+          "certificate": "exact_facets",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 42252,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "preserves_source": true,
+          "source_surface_error_bound": 0.0,
+          "certificate": "exact_facets",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 42252,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "uncertified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": true,
+            "face_count": 42252,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": false,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": []
+          }
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": true,
+          "source_surface_error_bound": 4.301522051535781e-12,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 42254,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "preserves_source": true,
+          "source_surface_error_bound": 4.301522051535781e-12,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 42254,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "Self-intersecting surface"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "model": "101952",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects",
+        "candidate_failed_source_preservation"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 34",
+        "non_manifold_edges: 7",
+        "non_manifold_vertices: 11",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 1.9999057188384003e-12,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 1102,
+            "naked_edges": 3,
+            "non_manifold_edges": 3,
+            "non_manifold_vertices": 6,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 3",
+              "non_manifold_edges: 3",
+              "non_manifold_vertices: 6",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "preservation-checked-excision",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "uncertified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 1011,
+            "naked_edges": 73,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 65,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 73",
+              "winding_conflicts: 65",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "rejection": "Hole triangulation requires coherent orientable manifold sheets"
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": true,
+          "source_surface_error_bound": 1.9999057188384003e-12,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 1552,
+            "naked_edges": 34,
+            "non_manifold_edges": 7,
+            "non_manifold_vertices": 11,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 34",
+              "non_manifold_edges: 7",
+              "non_manifold_vertices: 11",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    },
+    {
+      "model": "kame_A",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects",
+        "candidate_failed_source_preservation"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 121",
+        "non_manifold_edges: 43",
+        "non_manifold_vertices: 75",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 0.0,
+          "certificate": "exact_facets",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 7517,
+            "naked_edges": 40,
+            "non_manifold_edges": 17,
+            "non_manifold_vertices": 31,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 40",
+              "non_manifold_edges: 17",
+              "non_manifold_vertices: 31",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "preservation-checked-excision",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "uncertified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 7409,
+            "naked_edges": 127,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 13,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 127",
+              "winding_conflicts: 13",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "rejection": "Hole triangulation requires coherent orientable manifold sheets"
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": true,
+          "source_surface_error_bound": 2.998495959296882e-12,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 10003,
+            "naked_edges": 121,
+            "non_manifold_edges": 43,
+            "non_manifold_vertices": 75,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 121",
+              "non_manifold_edges: 43",
+              "non_manifold_vertices: 75",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    },
+    {
+      "model": "82055",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects",
+        "candidate_failed_source_preservation"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 30",
+        "non_manifold_edges: 5",
+        "non_manifold_vertices: 7",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 8.429369702178805e-13,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 5615,
+            "naked_edges": 41,
+            "non_manifold_edges": 6,
+            "non_manifold_vertices": 9,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 41",
+              "non_manifold_edges: 6",
+              "non_manifold_vertices: 9",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "preservation-checked-excision",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "uncertified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 5602,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 1,
+            "reasons": [
+              "zero_volume_shells: 1",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "rejection": "Hole triangulation requires coherent orientable manifold sheets"
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": true,
+          "source_surface_error_bound": 8.429369702178805e-13,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 5627,
+            "naked_edges": 30,
+            "non_manifold_edges": 5,
+            "non_manifold_vertices": 7,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 30",
+              "non_manifold_edges: 5",
+              "non_manifold_vertices: 7",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    },
+    {
+      "model": "83642",
+      "status": "TIMEOUT",
+      "failure_categories": [
+        "hard_deadline"
+      ],
+      "reasons": [
+        "Hard repair deadline exceeded; destination preserved"
+      ],
+      "attempts": []
+    },
+    {
+      "model": "1004824",
+      "status": "NEEDS_REVIEW",
+      "failure_categories": [
+        "intersection_remains",
+        "boundary_or_incidence_defects",
+        "candidate_failed_source_preservation"
+      ],
+      "reasons": [
+        "No candidate met both preservation and serialized-output validity",
+        "naked_edges: 4344",
+        "non_manifold_edges: 299",
+        "non_manifold_vertices: 485",
+        "Self-intersecting surface"
+      ],
+      "attempts": [
+        {
+          "strategy": "local-preserving",
+          "preserves_source": true,
+          "source_surface_error_bound": 1.1277044103497944e-14,
+          "certificate": "certified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 22602,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 1,
+            "reasons": [
+              "zero_volume_shells: 1",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "preservation-checked-excision",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "uncertified_surface_coverage",
+          "closed_parts_preserved": true,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 22598,
+            "naked_edges": 0,
+            "non_manifold_edges": 0,
+            "non_manifold_vertices": 0,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-hole-triangulation",
+          "rejection": "Hole triangulation requires coherent orientable manifold sheets"
+        },
+        {
+          "strategy": "Manifold64-boolean",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        },
+        {
+          "strategy": "CGAL-autorefine-local",
+          "preserves_source": false,
+          "source_surface_error_bound": null,
+          "certificate": "closed_part_retention_failed",
+          "closed_parts_preserved": false,
+          "validation": {
+            "complete": true,
+            "valid": false,
+            "face_count": 32145,
+            "naked_edges": 4344,
+            "non_manifold_edges": 299,
+            "non_manifold_vertices": 485,
+            "degenerate_faces": 0,
+            "duplicate_faces": 0,
+            "winding_conflicts": 0,
+            "self_intersection": true,
+            "cavity_orientation_errors": 0,
+            "zero_volume_shells": 0,
+            "reasons": [
+              "naked_edges: 4344",
+              "non_manifold_edges: 299",
+              "non_manifold_vertices: 485",
+              "Self-intersecting surface"
+            ]
+          }
+        },
+        {
+          "strategy": "CGAL-Manifold64",
+          "rejection": "ValueError: Manifold Boolean requires closed input sheets"
+        }
+      ]
+    }
+  ]
+}

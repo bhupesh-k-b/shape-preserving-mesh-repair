@@ -1,0 +1,47 @@
+    [filter] Cull 1 face(s) from 1 un-repairable micro-shells.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  MESH REPAIR PIPELINE — TEST RESULTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ✓  UNIT 01 degenerate zero area
+  ✓  UNIT 02 degenerate repeated vertex
+  ✓  UNIT 03 duplicate faces
+  ✓  UNIT 04 weld vertices in tolerance
+  ✓  UNIT 05 weld distant vertices untouched
+  ✗  UNIT 06 non manifold edge excision
+       ↳ Edge (0, 1) still has 3 faces after repair
+  ✓  UNIT 07 non manifold vertex crack
+  ✓  UNIT 08 separate to manifold
+  ✓  UNIT 09 orientation consistent
+  ✓  UNIT 10 inside out cube flipped
+  ✓  UNIT 11 winding audit detects conflict
+  ✓  UNIT 12 repair winding order resolves
+  ✓  UNIT 13 mobius crack vertex count
+  ✗  UNIT 14 planar hole filled
+       ↳ Faces should have been added to fill the hole
+  ✗  UNIT 14b planar fill avoids nonmanifold diagonal
+       ↳ Hole fill left naked edges: [(6, 8), (4, 8), (6, 9), (4, 9), (7, 10)]
+  ✓  UNIT 15 non planar hole no crash
+  ✗  UNIT 16 smooth moves vertices
+       ↳ module 'src.routines.repair_smooth' has no attribute 'bary_smooth'
+  ✗  UNIT 17 smooth zero iterations noop
+       ↳ module 'src.routines.repair_smooth' has no attribute 'bary_smooth'
+  ✓  UNIT 18 filter small shells
+  ✓  UNIT 19 recompute normals unit
+  ✓  UNIT 20 signed volume positive
+  ✓  UNIT 21 compact mesh
+  ✓  UNIT 22 build edge map
+  ✓  UNIT 23 naked and nonmanifold
+  ✓  UNIT 24 face area
+  ✓  UNIT 26 topology complex junction
+  ✓  INT 01 degenerate duplicate then normals
+  ✗  INT 02 weld then fill watertight
+       ↳ Mesh should be watertight after hole fill
+  ✓  INT 03 nonmanifold then normals then weld
+  ✗  INT 04 full pipeline broken cube
+       ↳ Full pipeline should produce a watertight mesh
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Passed  : 23
+  Failed  : 7
+  Total   : 30
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

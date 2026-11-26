@@ -1,0 +1,131 @@
+{
+  "scope": "current working tree including uncommitted changes",
+  "base_head": "6738cb7f9da3286ea792d1e4ac0d8a9c93872cb7",
+  "files": [
+    {
+      "path": "main.py",
+      "sha256": "f8e7821ea2bf87e0a4ca5d95e08adcdf4d17b4746dbc08c667862e1d2fe7a033",
+      "bytes": 1911
+    },
+    {
+      "path": "README.md",
+      "sha256": "7bdfe7f5560098d0fb48f2f76a5035f1ffac39349f0d807b7b7de6afb9059474",
+      "bytes": 2605
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "c9ce08efb64b60daa23216cfaa2f6e07b26a234280e49e768d5cf48b5ed4c029",
+      "bytes": 51
+    },
+    {
+      "path": "repair_config.ini",
+      "sha256": "571e2a83efa9ac0e86ac3bd4ede39cf644b14f6ae6fa3e2981523ae30c64a0e7",
+      "bytes": 1130
+    },
+    {
+      "path": "src/pipelines/mesh_repair_initial.py",
+      "sha256": "7f776411548728d3a8735f7f7fc32dca65f40de369a7be6b837511c2d6c72ee9",
+      "bytes": 2161
+    },
+    {
+      "path": "src/pipelines/mesh_repair_pipeline.py",
+      "sha256": "0ff1f739459acb76647cf7634950ae5ed2620043807ea4d72c8c3b6f40368cb0",
+      "bytes": 24581
+    },
+    {
+      "path": "src/core/initial_cleanup_engine.py",
+      "sha256": "cba3779dd111185663ff6842bf736b4628b4d592356914b39d7c43df6e04dcc4",
+      "bytes": 32581
+    },
+    {
+      "path": "src/core/mesh_analyzer.py",
+      "sha256": "e34c843b23efff6c00de7b7501da221901b00b3a973c8867e1b7eb3d3a62a88f",
+      "bytes": 24502
+    },
+    {
+      "path": "src/core/repair_config.py",
+      "sha256": "19686da2e8c4603f5400b1ea50708e2a237ce92c57de702718b86a80d111eca7",
+      "bytes": 6135
+    },
+    {
+      "path": "src/core/topology_cache.py",
+      "sha256": "d9fbf12cd177b7c8cca4708b5d2a12d0a9478e4e92e28c8c1f6a7a9e579e558e",
+      "bytes": 3559
+    },
+    {
+      "path": "src/core/repair_utils.py",
+      "sha256": "7ffc3872a4f5e0e70ad2f096846d36ce696ad50f81487f402358c8dbcfeea022",
+      "bytes": 2204
+    },
+    {
+      "path": "src/scripts/evaluate_dataset.py",
+      "sha256": "f1d062eec1443f03c4ec28cbdc259ac5bfc08005aba6f81acaa1813adcc50ba2",
+      "bytes": 4684
+    },
+    {
+      "path": "src/scripts/evaluate_thingi10k_hf.py",
+      "sha256": "64e9a09d55d889724421629d1387136264f7ac4a6da5bae5da97ee4643c4159a",
+      "bytes": 4792
+    },
+    {
+      "path": "src/scripts/evaluate_thingi10k.py",
+      "sha256": "47748398feb8be0e9af630928dfff63cce0d893fff1339e3a3359b6240d5e06b",
+      "bytes": 3761
+    },
+    {
+      "path": "evaluate.bat",
+      "sha256": "0831e0cc0c011e52bf4b73824b4787cae1fd8eb416e2e5a4bde323f94fa40ae8",
+      "bytes": 42
+    },
+    {
+      "path": "evaluate.ps1",
+      "sha256": "9f9fce85c74fad67eb338db7c32d61d8eaa7a2123f3001921dab7801aa4a5140",
+      "bytes": 45
+    },
+    {
+      "path": "src/routines/repair_degenerates.py",
+      "sha256": "a6bb4d171dd3d78c2f3f7548e2a880cd5ac59e89ec5556f71ec6a7335844e28d",
+      "bytes": 1619
+    },
+    {
+      "path": "src/routines/repair_holes.py",
+      "sha256": "8ed2daf2089c16b0b957eff5a18dcd9bfcf1ef11c922ed2f75df1fa619429ba5",
+      "bytes": 53288
+    },
+    {
+      "path": "src/routines/repair_mobius.py",
+      "sha256": "f252bd7bc7846d771969f7790b3bd0edffed2ac0f3de492241b77555823820ea",
+      "bytes": 3452
+    },
+    {
+      "path": "src/routines/repair_nonmanifold.py",
+      "sha256": "91cd32894e86eb091b83fd337984acf38c8fecbec0e619482b9a2a52b177d029",
+      "bytes": 3024
+    },
+    {
+      "path": "src/routines/repair_normals.py",
+      "sha256": "5058df493f6414f99e75ef56c2b6f96427a8cb566487462f72916f87229210a3",
+      "bytes": 2554
+    },
+    {
+      "path": "src/routines/repair_shell_union.py",
+      "sha256": "521751e8ca626cc8416fce963f6c5484493185ed24c60e4f1eedfab0810a7f1d",
+      "bytes": 37639
+    },
+    {
+      "path": "src/routines/repair_topology_separation.py",
+      "sha256": "19837397736e666afd1b170189913a291bd17c3433c1f4e2d4ed0b68e0d497f1",
+      "bytes": 5254
+    },
+    {
+      "path": "src/routines/repair_welding.py",
+      "sha256": "9b5fea02b3a526605d353b27d2d493c2c85e0b716c2b34f0e4e799c696a9c4fa",
+      "bytes": 8459
+    },
+    {
+      "path": "src/routines/repair_winding.py",
+      "sha256": "2b8caf67e9f136168ebd188d04d83d6bf7c8d6a5697bbb1146ffa0a7a2e32b5b",
+      "bytes": 30071
+    }
+  ]
+}

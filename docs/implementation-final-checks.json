@@ -1,0 +1,49 @@
+{
+  "reference-benchmark": {
+    "attempted": 72,
+    "verified": 72,
+    "automatic_coverage": 1.0,
+    "reference_correct": 72,
+    "statuses": {
+      "VERIFIED_REPAIRED": 54,
+      "VERIFIED_UNCHANGED": 18
+    },
+    "runtime_hashes_match": true
+  },
+  "dataset-3mf": {
+    "attempted": 29,
+    "verified": 5,
+    "automatic_coverage": 0.1724137931034483,
+    "reference_correct": 0,
+    "statuses": {
+      "NEEDS_REVIEW": 20,
+      "TIMEOUT": 4,
+      "VERIFIED_REPAIRED": 2,
+      "VERIFIED_UNCHANGED": 3
+    },
+    "runtime_hashes_match": true
+  },
+  "dataset-stl": {
+    "attempted": 29,
+    "verified": 5,
+    "automatic_coverage": 0.1724137931034483,
+    "reference_correct": 0,
+    "statuses": {
+      "NEEDS_REVIEW": 20,
+      "TIMEOUT": 4,
+      "VERIFIED_REPAIRED": 2,
+      "VERIFIED_UNCHANGED": 3
+    },
+    "runtime_hashes_match": true
+  },
+  "tests": {
+    "passed": 78,
+    "skipped": 2,
+    "duration_seconds": 22.93
+  },
+  "native_build": "passed",
+  "python_compile": "passed",
+  "git_diff_check": "passed",
+  "source_meshes_unchanged": 29,
+  "published_outputs_match_verified_status": true
+}

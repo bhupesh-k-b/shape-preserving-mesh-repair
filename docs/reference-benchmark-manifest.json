@@ -1,0 +1,506 @@
+[
+  {
+    "input": "../.benchmarks/reference-inputs/cube-0-0-identity.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-0-0-reference.3mf",
+    "family": "cube",
+    "defect": "identity",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-0-0-winding.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-0-0-reference.3mf",
+    "family": "cube",
+    "defect": "winding",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-0-0-hole.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-0-0-reference.3mf",
+    "family": "cube",
+    "defect": "hole",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-0-0-combined.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-0-0-reference.3mf",
+    "family": "cube",
+    "defect": "combined",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-0-1-identity.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-0-1-reference.3mf",
+    "family": "cube",
+    "defect": "identity",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-0-1-winding.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-0-1-reference.3mf",
+    "family": "cube",
+    "defect": "winding",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-0-1-hole.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-0-1-reference.3mf",
+    "family": "cube",
+    "defect": "hole",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-0-1-combined.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-0-1-reference.3mf",
+    "family": "cube",
+    "defect": "combined",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-1-0-identity.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-1-0-reference.3mf",
+    "family": "cube",
+    "defect": "identity",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-1-0-winding.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-1-0-reference.3mf",
+    "family": "cube",
+    "defect": "winding",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-1-0-hole.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-1-0-reference.3mf",
+    "family": "cube",
+    "defect": "hole",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-1-0-combined.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-1-0-reference.3mf",
+    "family": "cube",
+    "defect": "combined",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-1-1-identity.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-1-1-reference.3mf",
+    "family": "cube",
+    "defect": "identity",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-1-1-winding.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-1-1-reference.3mf",
+    "family": "cube",
+    "defect": "winding",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-1-1-hole.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-1-1-reference.3mf",
+    "family": "cube",
+    "defect": "hole",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-1-1-combined.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-1-1-reference.3mf",
+    "family": "cube",
+    "defect": "combined",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-2-0-identity.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-2-0-reference.3mf",
+    "family": "cube",
+    "defect": "identity",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-2-0-winding.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-2-0-reference.3mf",
+    "family": "cube",
+    "defect": "winding",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-2-0-hole.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-2-0-reference.3mf",
+    "family": "cube",
+    "defect": "hole",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-2-0-combined.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-2-0-reference.3mf",
+    "family": "cube",
+    "defect": "combined",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-2-1-identity.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-2-1-reference.3mf",
+    "family": "cube",
+    "defect": "identity",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-2-1-winding.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-2-1-reference.3mf",
+    "family": "cube",
+    "defect": "winding",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-2-1-hole.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-2-1-reference.3mf",
+    "family": "cube",
+    "defect": "hole",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cube-2-1-combined.npz",
+    "reference": "../.benchmarks/reference-inputs/cube-2-1-reference.3mf",
+    "family": "cube",
+    "defect": "combined",
+    "split": "regression"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-0-0-identity.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-0-0-reference.3mf",
+    "family": "icosphere",
+    "defect": "identity",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-0-0-winding.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-0-0-reference.3mf",
+    "family": "icosphere",
+    "defect": "winding",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-0-0-hole.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-0-0-reference.3mf",
+    "family": "icosphere",
+    "defect": "hole",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-0-0-combined.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-0-0-reference.3mf",
+    "family": "icosphere",
+    "defect": "combined",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-0-1-identity.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-0-1-reference.3mf",
+    "family": "icosphere",
+    "defect": "identity",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-0-1-winding.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-0-1-reference.3mf",
+    "family": "icosphere",
+    "defect": "winding",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-0-1-hole.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-0-1-reference.3mf",
+    "family": "icosphere",
+    "defect": "hole",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-0-1-combined.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-0-1-reference.3mf",
+    "family": "icosphere",
+    "defect": "combined",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-1-0-identity.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-1-0-reference.3mf",
+    "family": "icosphere",
+    "defect": "identity",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-1-0-winding.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-1-0-reference.3mf",
+    "family": "icosphere",
+    "defect": "winding",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-1-0-hole.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-1-0-reference.3mf",
+    "family": "icosphere",
+    "defect": "hole",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-1-0-combined.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-1-0-reference.3mf",
+    "family": "icosphere",
+    "defect": "combined",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-1-1-identity.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-1-1-reference.3mf",
+    "family": "icosphere",
+    "defect": "identity",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-1-1-winding.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-1-1-reference.3mf",
+    "family": "icosphere",
+    "defect": "winding",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-1-1-hole.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-1-1-reference.3mf",
+    "family": "icosphere",
+    "defect": "hole",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-1-1-combined.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-1-1-reference.3mf",
+    "family": "icosphere",
+    "defect": "combined",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-2-0-identity.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-2-0-reference.3mf",
+    "family": "icosphere",
+    "defect": "identity",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-2-0-winding.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-2-0-reference.3mf",
+    "family": "icosphere",
+    "defect": "winding",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-2-0-hole.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-2-0-reference.3mf",
+    "family": "icosphere",
+    "defect": "hole",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-2-0-combined.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-2-0-reference.3mf",
+    "family": "icosphere",
+    "defect": "combined",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-2-1-identity.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-2-1-reference.3mf",
+    "family": "icosphere",
+    "defect": "identity",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-2-1-winding.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-2-1-reference.3mf",
+    "family": "icosphere",
+    "defect": "winding",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-2-1-hole.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-2-1-reference.3mf",
+    "family": "icosphere",
+    "defect": "hole",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/icosphere-2-1-combined.npz",
+    "reference": "../.benchmarks/reference-inputs/icosphere-2-1-reference.3mf",
+    "family": "icosphere",
+    "defect": "combined",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-0-0-identity.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-0-0-reference.3mf",
+    "family": "cylinder",
+    "defect": "identity",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-0-0-winding.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-0-0-reference.3mf",
+    "family": "cylinder",
+    "defect": "winding",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-0-0-hole.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-0-0-reference.3mf",
+    "family": "cylinder",
+    "defect": "hole",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-0-0-combined.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-0-0-reference.3mf",
+    "family": "cylinder",
+    "defect": "combined",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-0-1-identity.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-0-1-reference.3mf",
+    "family": "cylinder",
+    "defect": "identity",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-0-1-winding.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-0-1-reference.3mf",
+    "family": "cylinder",
+    "defect": "winding",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-0-1-hole.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-0-1-reference.3mf",
+    "family": "cylinder",
+    "defect": "hole",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-0-1-combined.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-0-1-reference.3mf",
+    "family": "cylinder",
+    "defect": "combined",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-1-0-identity.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-1-0-reference.3mf",
+    "family": "cylinder",
+    "defect": "identity",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-1-0-winding.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-1-0-reference.3mf",
+    "family": "cylinder",
+    "defect": "winding",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-1-0-hole.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-1-0-reference.3mf",
+    "family": "cylinder",
+    "defect": "hole",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-1-0-combined.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-1-0-reference.3mf",
+    "family": "cylinder",
+    "defect": "combined",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-1-1-identity.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-1-1-reference.3mf",
+    "family": "cylinder",
+    "defect": "identity",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-1-1-winding.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-1-1-reference.3mf",
+    "family": "cylinder",
+    "defect": "winding",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-1-1-hole.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-1-1-reference.3mf",
+    "family": "cylinder",
+    "defect": "hole",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-1-1-combined.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-1-1-reference.3mf",
+    "family": "cylinder",
+    "defect": "combined",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-2-0-identity.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-2-0-reference.3mf",
+    "family": "cylinder",
+    "defect": "identity",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-2-0-winding.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-2-0-reference.3mf",
+    "family": "cylinder",
+    "defect": "winding",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-2-0-hole.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-2-0-reference.3mf",
+    "family": "cylinder",
+    "defect": "hole",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-2-0-combined.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-2-0-reference.3mf",
+    "family": "cylinder",
+    "defect": "combined",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-2-1-identity.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-2-1-reference.3mf",
+    "family": "cylinder",
+    "defect": "identity",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-2-1-winding.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-2-1-reference.3mf",
+    "family": "cylinder",
+    "defect": "winding",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-2-1-hole.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-2-1-reference.3mf",
+    "family": "cylinder",
+    "defect": "hole",
+    "split": "held_out_family"
+  },
+  {
+    "input": "../.benchmarks/reference-inputs/cylinder-2-1-combined.npz",
+    "reference": "../.benchmarks/reference-inputs/cylinder-2-1-reference.3mf",
+    "family": "cylinder",
+    "defect": "combined",
+    "split": "held_out_family"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "input": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1e-07-0.npz",
+    "reference": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1e-07-0-reference.3mf",
+    "family": "cube",
+    "defect": "coplanar_overlay",
+    "overlay_faces": 128,
+    "scale": 1e-07,
+    "translation": 0.0,
+    "split": "targeted_regression"
+  },
+  {
+    "input": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1e-07-1e+06.npz",
+    "reference": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1e-07-1e+06-reference.3mf",
+    "family": "cube",
+    "defect": "coplanar_overlay",
+    "overlay_faces": 128,
+    "scale": 1e-07,
+    "translation": 1000000.0,
+    "split": "targeted_regression"
+  },
+  {
+    "input": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1-0.npz",
+    "reference": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1-0-reference.3mf",
+    "family": "cube",
+    "defect": "coplanar_overlay",
+    "overlay_faces": 128,
+    "scale": 1.0,
+    "translation": 0.0,
+    "split": "targeted_regression"
+  },
+  {
+    "input": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1-1e+06.npz",
+    "reference": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1-1e+06-reference.3mf",
+    "family": "cube",
+    "defect": "coplanar_overlay",
+    "overlay_faces": 128,
+    "scale": 1.0,
+    "translation": 1000000.0,
+    "split": "targeted_regression"
+  },
+  {
+    "input": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1000-0.npz",
+    "reference": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1000-0-reference.3mf",
+    "family": "cube",
+    "defect": "coplanar_overlay",
+    "overlay_faces": 128,
+    "scale": 1000.0,
+    "translation": 0.0,
+    "split": "targeted_regression"
+  },
+  {
+    "input": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1000-1e+06.npz",
+    "reference": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-8-1000-1e+06-reference.3mf",
+    "family": "cube",
+    "defect": "coplanar_overlay",
+    "overlay_faces": 128,
+    "scale": 1000.0,
+    "translation": 1000000.0,
+    "split": "targeted_regression"
+  },
+  {
+    "input": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1e-07-0.npz",
+    "reference": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1e-07-0-reference.3mf",
+    "family": "cube",
+    "defect": "coplanar_overlay",
+    "overlay_faces": 200,
+    "scale": 1e-07,
+    "translation": 0.0,
+    "split": "targeted_regression"
+  },
+  {
+    "input": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1e-07-1e+06.npz",
+    "reference": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1e-07-1e+06-reference.3mf",
+    "family": "cube",
+    "defect": "coplanar_overlay",
+    "overlay_faces": 200,
+    "scale": 1e-07,
+    "translation": 1000000.0,
+    "split": "targeted_regression"
+  },
+  {
+    "input": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1-0.npz",
+    "reference": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1-0-reference.3mf",
+    "family": "cube",
+    "defect": "coplanar_overlay",
+    "overlay_faces": 200,
+    "scale": 1.0,
+    "translation": 0.0,
+    "split": "targeted_regression"
+  },
+  {
+    "input": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1-1e+06.npz",
+    "reference": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1-1e+06-reference.3mf",
+    "family": "cube",
+    "defect": "coplanar_overlay",
+    "overlay_faces": 200,
+    "scale": 1.0,
+    "translation": 1000000.0,
+    "split": "targeted_regression"
+  },
+  {
+    "input": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1000-0.npz",
+    "reference": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1000-0-reference.3mf",
+    "family": "cube",
+    "defect": "coplanar_overlay",
+    "overlay_faces": 200,
+    "scale": 1000.0,
+    "translation": 0.0,
+    "split": "targeted_regression"
+  },
+  {
+    "input": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1000-1e+06.npz",
+    "reference": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-10-1000-1e+06-reference.3mf",
+    "family": "cube",
+    "defect": "coplanar_overlay",
+    "overlay_faces": 200,
+    "scale": 1000.0,
+    "translation": 1000000.0,
+    "split": "targeted_regression"
+  },
+  {
+    "input": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1e-07-0.npz",
+    "reference": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1e-07-0-reference.3mf",
+    "family": "cube",
+    "defect": "coplanar_overlay",
+    "overlay_faces": 512,
+    "scale": 1e-07,
+    "translation": 0.0,
+    "split": "targeted_regression"
+  },
+  {
+    "input": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1e-07-1e+06.npz",
+    "reference": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1e-07-1e+06-reference.3mf",
+    "family": "cube",
+    "defect": "coplanar_overlay",
+    "overlay_faces": 512,
+    "scale": 1e-07,
+    "translation": 1000000.0,
+    "split": "targeted_regression"
+  },
+  {
+    "input": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1-0.npz",
+    "reference": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1-0-reference.3mf",
+    "family": "cube",
+    "defect": "coplanar_overlay",
+    "overlay_faces": 512,
+    "scale": 1.0,
+    "translation": 0.0,
+    "split": "targeted_regression"
+  },
+  {
+    "input": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1-1e+06.npz",
+    "reference": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1-1e+06-reference.3mf",
+    "family": "cube",
+    "defect": "coplanar_overlay",
+    "overlay_faces": 512,
+    "scale": 1.0,
+    "translation": 1000000.0,
+    "split": "targeted_regression"
+  },
+  {
+    "input": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1000-0.npz",
+    "reference": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1000-0-reference.3mf",
+    "family": "cube",
+    "defect": "coplanar_overlay",
+    "overlay_faces": 512,
+    "scale": 1000.0,
+    "translation": 0.0,
+    "split": "targeted_regression"
+  },
+  {
+    "input": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1000-1e+06.npz",
+    "reference": "../.benchmarks/iteration2/overlay-inputs/cube-overlay-16-1000-1e+06-reference.3mf",
+    "family": "cube",
+    "defect": "coplanar_overlay",
+    "overlay_faces": 512,
+    "scale": 1000.0,
+    "translation": 1000000.0,
+    "split": "targeted_regression"
+  }
+]

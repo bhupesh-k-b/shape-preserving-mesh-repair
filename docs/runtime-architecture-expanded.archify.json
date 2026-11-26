@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Advanced Mesh Repairing \u00b7 Expanded Runtime",
+    "locale": "en",
+    "quality_profile": "showcase",
+    "viewBox": [
+      1390,
+      620
+    ]
+  },
+  "components": [
+    {
+      "id": "mesh-input",
+      "type": "external",
+      "label": "Input STL",
+      "sublabel": "Local mesh file",
+      "pos": [
+        40,
+        70
+      ],
+      "size": [
+        180,
+        78
+      ]
+    },
+    {
+      "id": "repair-cli",
+      "type": "backend",
+      "label": "Repair CLI",
+      "sublabel": "main.py",
+      "pos": [
+        320,
+        70
+      ],
+      "size": [
+        180,
+        78
+      ]
+    },
+    {
+      "id": "initial-cleanup",
+      "type": "backend",
+      "label": "Initial Cleanup",
+      "sublabel": "InitialCleanupPipeline",
+      "pos": [
+        600,
+        70
+      ],
+      "size": [
+        180,
+        78
+      ]
+    },
+    {
+      "id": "advanced-repair",
+      "type": "backend",
+      "label": "Advanced Repair",
+      "sublabel": "MeshRepairPipeline",
+      "pos": [
+        880,
+        70
+      ],
+      "size": [
+        180,
+        78
+      ]
+    },
+    {
+      "id": "repair-artifacts",
+      "type": "external",
+      "label": "Output STL + Logs",
+      "sublabel": "Files / stdout",
+      "pos": [
+        1180,
+        70
+      ],
+      "size": [
+        160,
+        78
+      ]
+    },
+    {
+      "id": "edge-cleanup",
+      "type": "backend",
+      "label": "Edge Cleanup",
+      "sublabel": "Exact / nearby matching",
+      "pos": [
+        600,
+        250
+      ],
+      "size": [
+        160,
+        78
+      ]
+    },
+    {
+      "id": "initial-patching",
+      "type": "backend",
+      "label": "Patch + Normals",
+      "sublabel": "Cull / fill / orient",
+      "pos": [
+        600,
+        430
+      ],
+      "size": [
+        160,
+        78
+      ]
+    },
+    {
+      "id": "mesh-analysis",
+      "type": "backend",
+      "label": "Mesh Analyzer",
+      "sublabel": "Load / defect checks",
+      "pos": [
+        790,
+        250
+      ],
+      "size": [
+        150,
+        78
+      ]
+    },
+    {
+      "id": "repair-routines",
+      "type": "backend",
+      "label": "Repair Routines",
+      "sublabel": "src/routines",
+      "pos": [
+        980,
+        250
+      ],
+      "size": [
+        150,
+        78
+      ]
+    },
+    {
+      "id": "topology-orientation",
+      "type": "backend",
+      "label": "Topology + Winding",
+      "sublabel": "Shells / split / weld",
+      "pos": [
+        790,
+        430
+      ],
+      "size": [
+        150,
+        78
+      ]
+    },
+    {
+      "id": "hole-patching",
+      "type": "backend",
+      "label": "Hole Patching",
+      "sublabel": "Planar / non-planar",
+      "pos": [
+        980,
+        430
+      ],
+      "size": [
+        150,
+        78
+      ]
+    },
+    {
+      "id": "geometry-libraries",
+      "type": "external",
+      "label": "Geometry Libraries",
+      "sublabel": "NumPy / STL / SciPy",
+      "pos": [
+        1180,
+        430
+      ],
+      "size": [
+        160,
+        78
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "security-group",
+      "label": "Application code \u00b7 one Python repair process",
+      "wraps": [
+        "repair-cli",
+        "initial-cleanup",
+        "advanced-repair",
+        "edge-cleanup",
+        "initial-patching",
+        "mesh-analysis",
+        "repair-routines",
+        "topology-orientation",
+        "hole-patching"
+      ],
+      "pad": 20
+    },
+    {
+      "kind": "security-group",
+      "label": "Untrusted mesh bytes",
+      "wraps": [
+        "mesh-input"
+      ],
+      "pad": 20
+    },
+    {
+      "kind": "region",
+      "label": "Operator filesystem / console",
+      "wraps": [
+        "repair-artifacts"
+      ],
+      "pad": 20
+    },
+    {
+      "kind": "security-group",
+      "label": "Third-party code trust",
+      "wraps": [
+        "geometry-libraries"
+      ],
+      "pad": 20
+    }
+  ],
+  "connections": [
+    {
+      "id": "input-path",
+      "from": "mesh-input",
+      "to": "repair-cli",
+      "label": "STL path",
+      "variant": "emphasis"
+    },
+    {
+      "id": "initial-call",
+      "from": "repair-cli",
+      "to": "initial-cleanup",
+      "label": "repair()",
+      "variant": "emphasis"
+    },
+    {
+      "id": "stage-handoff",
+      "from": "initial-cleanup",
+      "to": "advanced-repair",
+      "label": "temp STL",
+      "variant": "emphasis"
+    },
+    {
+      "id": "persist-result",
+      "from": "advanced-repair",
+      "to": "repair-artifacts",
+      "label": "write / reload",
+      "variant": "emphasis"
+    },
+    {
+      "id": "cleanup-edges",
+      "from": "initial-cleanup",
+      "to": "edge-cleanup",
+      "label": "match edges",
+      "variant": "default",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "cleanup-patches",
+      "from": "edge-cleanup",
+      "to": "initial-patching",
+      "label": "patch / orient",
+      "variant": "default",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "labelDy": 24
+    },
+    {
+      "id": "analyze-mesh",
+      "from": "advanced-repair",
+      "to": "mesh-analysis",
+      "label": "analyze STL",
+      "variant": "default",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "dispatch-routines",
+      "from": "advanced-repair",
+      "to": "repair-routines",
+      "label": "array calls",
+      "variant": "default",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "repair-topology",
+      "from": "repair-routines",
+      "to": "topology-orientation",
+      "label": "topology",
+      "variant": "default",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "repair-holes",
+      "from": "repair-routines",
+      "to": "hole-patching",
+      "label": "fill holes",
+      "variant": "default",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "labelAt": [
+        1062,
+        405
+      ]
+    },
+    {
+      "id": "library-imports",
+      "from": "repair-routines",
+      "to": "geometry-libraries",
+      "label": "imports",
+      "variant": "default",
+      "fromSide": "right",
+      "toSide": "top"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Initial Cleanup internals",
+      "items": [
+        "Edge Cleanup: hash exact edges, match nearby edges and snap vertices; up to 3 passes from main.py.",
+        "Patch + Normals: remove disconnected facets, fill holes, orient faces, recompute normals and correct negative volume. Stage output is a temporary STL."
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "Advanced Repair internals",
+      "items": [
+        "Analyzer loads STL, deduplicates vertices and measures defects. Routines group shell union/culling, degenerates, non-manifold separation, winding, M\u00f6bius cracking, welding and hole patches.",
+        "The pipeline coordinates up to 3 refinement passes with structural rollback; final audit and float32 stabilization precede export/reload checks. Completion can leave defects."
+      ]
+    },
+    {
+      "dot": "rose",
+      "title": "Trust, settings & optional paths",
+      "items": [
+        "INI / --adaptive sets tolerances. NumPy, numpy-stl and SciPy run with process privileges; optional trimesh Boolean union uses available backends. Trust boundaries are not sandboxes.",
+        "Optional evaluators obtain Thingi10K over HTTPS or local files; local batch launches main.py with a 120 s default timeout + CSV. Evidence: current working tree; see analysis note for alternate paths."
+      ]
+    }
+  ]
+}
